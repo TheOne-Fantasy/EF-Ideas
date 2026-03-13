@@ -255,8 +255,8 @@ export default function EFPage() {
           </div>
 
           <div className={styles.fanIdPreview}>
-             <div style={{ position: 'absolute', inset: 0, opacity: 0.3, zIndex: 0 }}>
-                <img src="/ef-assets/culture-2.webp?v=1" alt="Card Background" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+             <div className={styles.fanIdBg}>
+                <img src="/ef-assets/culture-2.webp?v=1" alt="Card Background" />
              </div>
             <div className={styles.fanIdHeader} style={{ position: 'relative', zIndex: 1 }}>
               <div className={styles.fanIdLogo}>

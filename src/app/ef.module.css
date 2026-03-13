@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .main {
   background-color: var(--ef-white);
   color: var(--ef-black);
@@ -455,6 +459,20 @@
   overflow: hidden;
 }
 
+.fanIdBg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.fanIdBg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .fanIdHeader {
   display: flex;
   justify-content: space-between;
@@ -480,6 +498,7 @@
   font-weight: 800;
   text-transform: uppercase;
   margin-top: auto;
+  word-break: break-all;
 }
 
 .fanIdFooter {
@@ -539,11 +558,28 @@
   .mosaicItem { grid-column: span 1 !important; grid-row: span 1 !important; height: 250px; }
   .strategyGrid { grid-template-columns: 1fr; gap: 1.5rem; }
   .strategyCard { padding: 2rem; }
-  .generatorSection { grid-template-columns: 1fr; padding: 1.5rem; gap: 1.5rem; }
-  .fanIdPreview { padding: 1.25rem; min-height: 200px; aspect-ratio: 1.58 / 1; border-radius: 12px; }
-  .fanIdName { font-size: 1.4rem; margin-bottom: 0.5rem; }
-  .fanIdType { font-size: 0.6rem; padding: 0.2rem 0.4rem; }
-  .fanIdNumber { font-size: 0.7rem; }
+  .generatorSection { grid-template-columns: 1fr; padding: 1.25rem; gap: 1.5rem; }
+  .fanIdPreview { 
+    padding: 1rem; 
+    min-height: auto; 
+    aspect-ratio: 1.58 / 1; 
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .fanIdName { 
+    font-size: 1.3rem; 
+    margin-top: auto;
+    margin-bottom: 0.25rem; 
+    line-height: 1.1;
+  }
+  .fanIdHeader {
+    margin-bottom: 0.5rem;
+  }
+  .fanIdType { font-size: 0.55rem; padding: 0.2rem 0.4rem; }
+  .fanIdNumber { font-size: 0.65rem; }
+  .fanIdFooter { margin-top: 0.5rem; }
   .finalCta { padding: 6rem 1rem; }
   .finalCta h2 { font-size: 2.2rem; }
   .portfolioPreviewCard { flex-direction: column; min-height: auto; }
