@@ -1,0 +1,12 @@
+:root {
+  --ef-pink: #EF5097;
+  --ef-pink-vif: #FA00A2;
+  --ef-black: #0A0A0A;
+  --ef-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--ef-white);
+}
