@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .main {
   background-color: var(--ef-white);
   color: var(--ef-black);

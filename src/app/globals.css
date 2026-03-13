@@ -5,6 +5,10 @@
   --ef-white: #FFFFFF;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
