@@ -44,6 +44,20 @@
   gap: 1.5rem;
 }
 
+.efLogoContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navAvatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid var(--ef-pink);
+}
+
 .candidateInfo {
   border-left: 1px solid var(--ef-gray-border);
   padding-left: 1.5rem;
