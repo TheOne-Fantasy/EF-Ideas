@@ -333,6 +333,7 @@ export default function EFPage() {
             </div>
           </div>
         </div>
+      </section>
 
       {/* Footer */}
       <footer style={{ padding: '6rem 2rem', textAlign: 'center', backgroundColor: '#000', color: '#fff' }}>
