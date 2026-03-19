@@ -302,25 +302,44 @@ export default function EFPage() {
       <section id="roadmap" className={`${styles.section} ${styles.reveal}`}>
         <div className={styles.caseStudyTag}>TASK 3: COMMUNITY & GROWTH</div>
         <h2 className={styles.sectionTitle}>
-          BEYOND THE RECAP: <br />
-          <span className={styles.heroPink}>BUILDING A LEGACY.</span>
+          VISION 2026: <br />
+          <span className={styles.heroPink}>THE THREE PILLARS OF GROWTH.</span>
         </h2>
         
         <div className={styles.strategyGrid}>
+          {/* PILLAR 1 */}
           <div className={styles.strategyCard}>
-            <span className={styles.tag}>Pillar 1</span>
-            <h3>The &quot;Coffee Stop&quot;</h3>
-            <p>Lifestyle-first content. Talking about everything except cycling. Humanizing riders through their habits, music, and culture.</p>
+            <span className={styles.caseStudyTag} style={{ background: '#f0f0f0', color: '#666', marginBottom: '1rem' }}>FAN ECOSYSTEM</span>
+            <h3>THE &quot;PINK PANTHERS&quot;</h3>
+            <p style={{ color: '#666', fontSize: '0.9rem' }}>
+              Formalizing fan identity through a tiered digital membership club. 
+              <strong> Inspiration:</strong> The &quot;Wolf Pack&quot; model, shifting from passive viewership to a branded community belonging.
+            </p>
           </div>
+
+          {/* PILLAR 2 */}
           <div className={styles.strategyCard}>
-            <span className={styles.tag}>Pillar 2</span>
-            <h3>&quot;Inside the Bus&quot;</h3>
-            <p>Raw, unedited pre-race talks and post-race debriefs. Exclusive access that builds a sense of belonging for the fans.</p>
+            <span className={styles.caseStudyTag} style={{ background: '#f0f0f0', color: '#666', marginBottom: '1rem' }}>GROWTH</span>
+            <h3>LOCALIZED DIGITAL HUBS</h3>
+            <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
+              Scaling reach through region-specific storytelling. Following the successful NBA model in the French market (EF USA, EF Ecuador, EF France).
+            </p>
+            <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+               <span style={{ fontSize: '0.6rem', background: '#000', color: '#fff', padding: '0.3rem 0.6rem', borderRadius: '4px', fontWeight: 800 }}>@LESCHICAGOBULLS</span>
+               <span style={{ fontSize: '0.6rem', background: '#000', color: '#fff', padding: '0.3rem 0.6rem', borderRadius: '4px', fontWeight: 800 }}>@LESSPURS</span>
+            </div>
           </div>
-          <div className={styles.strategyCard}>
-            <span className={styles.tag}>Pillar 3</span>
-            <h3>&quot;Fan-Designed Route&quot;</h3>
-            <p>Interactive storytelling. Fans voting on gear colors, training playlists, or challenge destinations.</p>
+
+          {/* PILLAR 3 - THE CTA */}
+          <div className={styles.strategyCard} style={{ border: '2px solid var(--ef-pink)', background: 'rgba(239, 80, 151, 0.02)' }}>
+            <span className={styles.caseStudyTag} style={{ marginBottom: '1rem' }}>ENGAGEMENT</span>
+            <h3>THE &quot;DIRECT LINE&quot;</h3>
+            <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
+              Moving from broadcasting to <strong>conversation</strong>. Every post is a prompt. We don&apos;t just post content; we start debates and reward the best fan theories.
+            </p>
+            <div style={{ background: '#ef5097', color: '#fff', padding: '1rem', borderRadius: '12px', textAlign: 'center', fontWeight: 800, fontSize: '0.8rem', cursor: 'pointer' }}>
+               DROP A COMMENT: WHAT&apos;S YOUR VISION FOR 2026? 💬
+            </div>
           </div>
         </div>
 
