@@ -1,6 +1,8 @@
 'use client';
 import { useState, useEffect } from 'react';
-import styles from './ef.module.css';
+import dynamic from 'next/dynamic';
+
+const LampertiGame = dynamic(() => import('./components/LampertiGame'), { ssr: false });
 
 export default function EFPage() {
   const [fanName, setFanName] = useState('');
@@ -265,6 +267,15 @@ export default function EFPage() {
             </div>
 
             <div style={{ background: '#111', borderRadius: '24px', padding: '2rem', border: '1px solid #222' }}>
+              <h4 style={{ color: '#ef5097', fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '1.5rem' }}>Playable Prototype: Mission Concept</h4>
+              
+              <div style={{ marginBottom: '2rem' }}>
+                 <LampertiGame />
+                 <p style={{ fontSize: '0.7rem', color: '#666', marginTop: '0.5rem', textAlign: 'center' }}>
+                    *Interactive Concept: Prove your skill to unlock the new rider.
+                 </p>
+              </div>
+
               <h4 style={{ color: '#ef5097', fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '1.5rem' }}>The Script (45&quot;)</h4>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                 <div>
