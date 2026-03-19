@@ -138,7 +138,7 @@ export default function EFPage() {
             <div>
               <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY B: T+1h STORYTELLING CAROUSEL</div>
               <h3>The &quot;Royal Flush&quot; Sequence</h3>
-              <p><strong>Format:</strong> 4-Slide Immersive Carousel (4:5).</p>
+              <p><strong>Format:</strong> 5-Slide Immersive Carousel (4:5).</p>
               
               <div className={styles.captionBox}>
                 <strong>Proposed Caption:</strong>
@@ -149,15 +149,16 @@ export default function EFPage() {
 
               <div className={styles.insightCard}>
                 <h4>Strategic Insight: The &quot;Why&quot;</h4>
-                <p>One hour later, we shift to storytelling. This carousel uses the &quot;Royal Flush&quot; motif to position our rider as a master of the race. By integrating the official victory photo at the end of the sequence, we reward the user&apos;s engagement with the definitive moment of the day.</p>
+                <p>One hour later, we pivot to storytelling. This carousel presents a &quot;Royal Flush&quot;—a full 5-card poker hand of graphics that bridge the gap between art and action. It positions the rider as the master of the race, rewarding the user&apos;s deep engagement with a complete, collectible visual sequence.</p>
               </div>
             </div>
             
             <div className={styles.carouselContainer}>
-              <div className={styles.carouselItem}><img src="/case-study/2.png" alt="Slide 1 - Emotion" /></div>
-              <div className={styles.carouselItem}><img src="/case-study/3.png" alt="Slide 2 - Detail" /></div>
-              <div className={styles.carouselItem}><img src="/case-study/4.png" alt="Slide 3 - Context" /></div>
-              <div className={styles.carouselItem}><img src="/case-study/5.png" alt="Slide 4 - Victory" /></div>
+              <div className={styles.carouselItem}><img src="/case-study/card-1.png" alt="Poker Card 1" /></div>
+              <div className={styles.carouselItem}><img src="/case-study/card-2.png" alt="Poker Card 2" /></div>
+              <div className={styles.carouselItem}><img src="/case-study/card-3.png" alt="Poker Card 3" /></div>
+              <div className={styles.carouselItem}><img src="/case-study/card-4.png" alt="Poker Card 4" /></div>
+              <div className={styles.carouselItem}><img src="/case-study/card-5.png" alt="Poker Card 5" /></div>
             </div>
           </div>
         </div>
