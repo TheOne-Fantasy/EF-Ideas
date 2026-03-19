@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
+import styles from './ef.module.css';
 
 const LampertiGame = dynamic(() => import('./components/LampertiGame'), { ssr: false });
 
