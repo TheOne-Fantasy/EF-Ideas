@@ -538,6 +538,11 @@
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
+.revealVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Carousel & Video Styles for Case Study */
 .carouselContainer {
   display: flex;
@@ -545,11 +550,22 @@
   overflow-x: auto;
   padding: 1rem 0 3rem;
   scroll-snap-type: x mandatory;
-  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
 }
 
 .carouselContainer::-webkit-scrollbar {
-  display: none;
+  height: 8px;
+  display: block;
+}
+
+.carouselContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.carouselContainer::-webkit-scrollbar-thumb {
+  background: var(--ef-pink);
+  border-radius: 10px;
 }
 
 .carouselItem {
@@ -575,15 +591,19 @@
   background: #000;
   border-radius: 24px;
   overflow: hidden;
-  margin-top: 2rem;
+  margin-top: 1rem;
   position: relative;
-  aspect-ratio: 16 / 9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .videoPlayer {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
 }
 
 .videoOverlay {
@@ -613,12 +633,56 @@
   margin-top: 2rem;
 }
 
-@media (max-width: 768px) {
-  .carouselItem { flex: 0 0 280px; }
-  .grid2Col { grid-template-columns: 1fr; }
-  .videoSection { aspect-ratio: 9 / 16; }
+.insightCard {
+  background: #f8f8f8;
+  border-left: 4px solid var(--ef-pink);
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 0 12px 12px 0;
 }
 
+.insightCard h4 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--ef-pink);
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.insightCard p {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.captionBox {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+  border: 1px dashed #ccc;
+  font-family: -apple-system, system-ui, sans-serif;
+}
+
+.captionBox strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.deliverySection {
+  margin-bottom: 6rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4rem;
+}
+
+.deliverySection:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
   .nav { padding: 1rem; }
   .navLinks { display: none; }
   .hero { padding: 2rem 1rem; min-height: 70vh; }
@@ -659,4 +723,8 @@
   .portfolioPreviewVisual { position: relative; width: 100%; height: 200px; order: -1; }
   .candidateAvatar { width: 100px; height: 100px; }
   .avatarContainer { min-width: 100px; margin-top: 1rem; }
+  
+  .carouselItem { flex: 0 0 280px; }
+  .grid2Col { grid-template-columns: 1fr; }
+  .videoSection { aspect-ratio: 9 / 16; }
 }

@@ -75,39 +75,114 @@ export default function EFPage() {
           TOUR DE FRANCE: <br />
           <span className={styles.heroPink}>STAGE 6 VICTORY.</span>
         </h2>
-        <p className={styles.sectionSubtitle}>
-          Moving beyond a standard race recap to create an iconic visual object. High-impact graphics, raw emotions, and immersive sound.
-        </p>
-
-        <div className={styles.carouselContainer}>
-          <div className={styles.carouselItem}><img src="/case-study/1.png" alt="Slide 1 - Graphic" /></div>
-          <div className={styles.carouselItem}><img src="/case-study/2.png" alt="Slide 2 - Victory" /></div>
-          <div className={styles.carouselItem}><img src="/case-study/3.png" alt="Slide 3 - Emotion" /></div>
-          <div className={styles.carouselItem}><img src="/case-study/4.png" alt="Slide 4 - Peloton" /></div>
-          <div className={styles.carouselItem}><img src="/case-study/5.png" alt="Slide 5 - Podium" /></div>
+        
+        {/* Strategic Roadmap for Task 1 */}
+        <div style={{ background: '#000', color: '#fff', padding: '2rem', borderRadius: '24px', marginBottom: '4rem', display: 'flex', gap: '2rem', alignItems: 'center' }}>
+           <div style={{ flex: 1 }}>
+              <h3 style={{ color: '#fff', fontSize: '1.2rem', marginBottom: '0.5rem' }}>Strategic Roadmap: The &quot;Afterglow&quot; Loop</h3>
+              <p style={{ color: '#aaa', fontSize: '0.9rem', margin: 0 }}>
+                A multi-layered deployment strategy focused on immediate dominance, deep engagement, and sensory immersion. 
+                Instead of a simple recap, we create a 3-hour narrative arc that keeps the audience in our ecosystem.
+              </p>
+           </div>
+           <div style={{ display: 'flex', gap: '1rem', textAlign: 'center' }}>
+              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '80px' }}>
+                <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T+2m</div>
+                <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>IMPACT</div>
+              </div>
+              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '80px' }}>
+                <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T+1h</div>
+                <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>STORY</div>
+              </div>
+              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '80px' }}>
+                <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T+3h</div>
+                <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>IMMERSION</div>
+              </div>
+           </div>
         </div>
 
-        <div className={styles.grid2Col}>
+        {/* DELIVERY A */}
+        <div className={`${styles.grid2Col} ${styles.deliverySection}`}>
           <div>
-            <h3>The &quot;Royal Flush&quot; Concept</h3>
-            <p>Utilizing the &quot;Argyle King&quot; design asset to position Ben Healy as the master of the race. This isn&apos;t just a photo; it&apos;s a collector&apos;s item for the #PinkHeartsClub.</p>
-            <div style={{ background: '#f5f5f5', padding: '1.5rem', borderRadius: '12px', marginTop: '1rem' }}>
-              <strong>Caption Strategy:</strong> Focus on &quot;Grit&quot; and &quot;Humanity&quot;.
-              <p style={{ fontStyle: 'italic', fontSize: '0.9rem', color: '#666' }}>&quot;This sport asks for everything you have. Your legs, your heart, your sanity. Sometimes, it takes more.&quot;</p>
+            <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY A: THE INSTANT GRAPHIC</div>
+            <h3>The &quot;Ours&quot; Statement</h3>
+            <p><strong>Format:</strong> Static Vertical (4:5) for Instagram/X.</p>
+            
+            <div className={styles.captionBox}>
+              <strong>Proposed Caption:</strong>
+              Stage 6? Ours. 💗👊 <br /><br />
+              Healy claimed it. We owned it. The Pink Wave is here. <br /><br />
+              #EFProCycling #TDF2025 #PinkHeartsClub
+            </div>
+
+            <div className={styles.insightCard}>
+              <h4>Strategic Insight: The &quot;Why&quot;</h4>
+              <p>In the age of instant reporting, speed is everything. We don&apos;t wait for the official photo. We use the brand&apos;s iconic Pink to claim the win before anyone else. This creates a visually distinct moment in the feed that &quot;stops the scroll&quot; with pure identity.</p>
             </div>
           </div>
-          <div className={styles.videoSection}>
+          <div style={{ maxWidth: '350px', margin: '0 auto' }}>
+             <img src="/case-study/1.png" alt="Breaking News Graphic" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 10px 40px rgba(0,0,0,0.15)' }} />
+          </div>
+        </div>
+
+        {/* DELIVERY B */}
+        <div className={`${styles.deliverySection}`}>
+          <div className={styles.grid2Col}>
+            <div>
+              <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY B: STORYTELLING CAROUSEL</div>
+              <h3>The &quot;Royal Flush&quot; Sequence</h3>
+              <p><strong>Format:</strong> 4-Slide Immersive Carousel (4:5).</p>
+              
+              <div className={styles.captionBox}>
+                <strong>Proposed Caption:</strong>
+                More than just a win. It’s everything. 💗🥺 <br /><br />
+                Today, Ben Healy gave it all back. The tears? The relief of sacrifice. The hug? The brotherhood of a team that never stopped believing. <br /><br />
+                This is what it takes. #PinkHeartsClub #StageWin
+              </div>
+
+              <div className={styles.insightCard}>
+                <h4>Strategic Insight: The &quot;Why&quot;</h4>
+                <p>One hour later, we shift from &quot;Identity&quot; to &quot;Humanity&quot;. This carousel uses the &quot;Royal Flush&quot; card motif to position our rider as a master of the race, while the photography highlights the raw emotions of victory. It builds a deeper connection by showing the human cost of the win.</p>
+              </div>
+            </div>
+            
+            <div className={styles.carouselContainer}>
+              <div className={styles.carouselItem}><img src="/case-study/2.png" alt="Slide 1 - Emotion" /></div>
+              <div className={styles.carouselItem}><img src="/case-study/3.png" alt="Slide 2 - Detail" /></div>
+              <div className={styles.carouselItem}><img src="/case-study/4.png" alt="Slide 3 - Context" /></div>
+              <div className={styles.carouselItem}><img src="/case-study/5.png" alt="Slide 4 - Podium" /></div>
+            </div>
+          </div>
+        </div>
+
+        {/* DELIVERY C */}
+        <div className={`${styles.grid2Col} ${styles.deliverySection}`} style={{ borderBottom: 'none' }}>
+          <div>
+            <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY C: SENSORY REEL</div>
+            <h3>The &quot;Sound of Victory&quot;</h3>
+            <p><strong>Format:</strong> Vertical 9:16 (Reel/TikTok).</p>
+            
+            <div className={styles.captionBox}>
+              <strong>Proposed Caption:</strong>
+              No music. Just the music of the race. 🚲💨 <br /><br />
+              Turn your volume UP for the raw ASMR of the final kilometer. The gears, the breath, the roar. <br /><br />
+              Experience it like you were there. #TDFSound #EFProCycling
+            </div>
+
+            <div className={styles.insightCard}>
+              <h4>Strategic Insight: The &quot;Why&quot;</h4>
+              <p>Fans are overwhelmed with over-edited content. By 3 hours post-race, we offer &quot;The Slow Down&quot;. No music, no fancy transitions—just high-fidelity raw audio. It establishes EF as a brand that respects the pure sounds of the sport, creating a premium, almost therapeutic experience for die-hard fans.</p>
+            </div>
+          </div>
+
+          <div className={styles.videoSection} style={{ aspectRatio: '9 / 16', maxWidth: '350px', margin: '0 auto' }}>
              <video 
                className={styles.videoPlayer} 
                controls 
                poster="/case-study/2.png"
              >
                <source src="/case-study/TDF-Victory-Reel.mov" type="video/mp4" />
-               Your browser does not support the video tag.
              </video>
-             <div className={styles.videoOverlay}>
-                <span className={styles.caseStudyTag}>The Sound of Victory (Reel)</span>
-             </div>
           </div>
         </div>
       </section>
