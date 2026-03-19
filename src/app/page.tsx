@@ -45,7 +45,6 @@ export default function EFPage() {
       {/* Hero */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
-          <div className={styles.caseStudyTag}>EF PRO CYCLING 2025</div>
           <h1 className={styles.heroTitle}>
             BEYOND THE <span className={styles.heroPink}>FINISH LINE.</span><br />
             A CASE STUDY IN DIGITAL CULTURE.
