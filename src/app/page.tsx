@@ -120,14 +120,14 @@ export default function EFPage() {
               <p>At T-0 (the exact second the line is crossed), speed beats everything. We provide two visual options: <strong>Option 1</strong> (High-Contrast Text) for maximum readability, or <strong>Option 2</strong> (Iconic Argyle Pattern) for brand-first storytelling. Both claim the win before any official photo is available.</p>
             </div>
           </div>
-          <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
+          <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
              <div style={{ flex: 1 }}>
-                <img src="/case-study/ours-1.png" alt="Ours Graphic Option 1" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 5px 20px rgba(0,0,0,0.1)' }} />
-                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.5rem', opacity: 0.6 }}>Option 1: Bold Statement</p>
+                <img src="/case-study/ours-1.png" alt="Ours Graphic Option 1" className={styles.staticPost} />
+                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.75rem', opacity: 0.6 }}>Option 1: Bold Statement</p>
              </div>
              <div style={{ flex: 1 }}>
-                <img src="/case-study/ours-2.png" alt="Ours Graphic Option 2" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 5px 20px rgba(0,0,0,0.1)' }} />
-                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.5rem', opacity: 0.6 }}>Option 2: Brand Identity</p>
+                <img src="/case-study/ours-2.png" alt="Ours Graphic Option 2" className={styles.staticPost} />
+                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.75rem', opacity: 0.6 }}>Option 2: Brand Identity</p>
              </div>
           </div>
         </div>
@@ -183,7 +183,7 @@ export default function EFPage() {
             </div>
           </div>
 
-          <div className={styles.videoSection} style={{ aspectRatio: '9 / 16', maxWidth: '350px', margin: '0 auto' }}>
+          <div className={styles.videoSection}>
              <video 
                className={styles.videoPlayer} 
                controls 
@@ -234,8 +234,8 @@ export default function EFPage() {
           </div>
           
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-             <div style={{ maxWidth: '450px', width: '100%' }}>
-                <img src="/case-study/lamperti-final.png" alt="Luke Lamperti Announcement" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 20px 50px rgba(0,0,0,0.6)' }} />
+             <div style={{ maxWidth: '400px', width: '100%' }}>
+                <img src="/case-study/lamperti-final.png" alt="Luke Lamperti Announcement" className={styles.staticPost} style={{ boxShadow: '0 20px 50px rgba(0,0,0,0.4)' }} />
                 <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '1rem', color: '#666' }}>Final Selection: The &quot;Paint it Pink&quot; Statement</p>
              </div>
           </div>
