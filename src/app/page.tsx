@@ -193,20 +193,6 @@ export default function EFPage() {
           </div>
         </div>
       </section>
-            </div>
-          </div>
-
-          <div className={styles.videoSection} style={{ aspectRatio: '9 / 16', maxWidth: '350px', margin: '0 auto' }}>
-             <video 
-               className={styles.videoPlayer} 
-               controls 
-               poster="/case-study/2.png"
-             >
-               <source src="/case-study/TDF-Victory-Reel.mov" type="video/mp4" />
-             </video>
-          </div>
-        </div>
-      </section>
 
       {/* TASK 2: LUKE LAMPERTI */}
       <section id="lamperti" className={`${styles.section} ${styles.reveal}`} style={{ backgroundColor: '#000', color: '#fff' }}>
