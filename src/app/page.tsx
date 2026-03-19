@@ -1,9 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
-import dynamic from 'next/dynamic';
 import styles from './ef.module.css';
-
-const LampertiGame = dynamic(() => import('./components/LampertiGame'), { ssr: false });
 
 export default function EFPage() {
   const [fanName, setFanName] = useState('');
@@ -141,7 +138,7 @@ export default function EFPage() {
             <div>
               <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY B: T+1h STORYTELLING CAROUSEL</div>
               <h3>The &quot;Royal Flush&quot; Sequence</h3>
-              <p><strong>Format:</strong> 5-Slide Immersive Carousel (4:5).</p>
+              <p><strong>Format:</strong> 4-Slide Immersive Carousel (4:5).</p>
               
               <div className={styles.captionBox}>
                 <strong>Proposed Caption:</strong>
@@ -152,7 +149,7 @@ export default function EFPage() {
 
               <div className={styles.insightCard}>
                 <h4>Strategic Insight: The &quot;Why&quot;</h4>
-                <p>One hour later, we pivot to storytelling. This carousel presents a &quot;Royal Flush&quot;—a full 5-card poker hand of graphics that bridge the gap between art and action. It positions the rider as the master of the race, rewarding the user&apos;s deep engagement with a complete, collectible visual sequence.</p>
+                <p>One hour later, we shift to storytelling. This carousel uses the &quot;Royal Flush&quot; motif to position our rider as a master of the race. By integrating the official victory photo at the end of the sequence, we reward the user&apos;s engagement with the definitive moment of the day.</p>
               </div>
             </div>
             
@@ -268,15 +265,6 @@ export default function EFPage() {
             </div>
 
             <div style={{ background: '#111', borderRadius: '24px', padding: '2rem', border: '1px solid #222' }}>
-              <h4 style={{ color: '#ef5097', fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '1.5rem' }}>Playable Prototype: Mission Concept</h4>
-              
-              <div style={{ marginBottom: '2rem' }}>
-                 <LampertiGame />
-                 <p style={{ fontSize: '0.7rem', color: '#666', marginTop: '0.5rem', textAlign: 'center' }}>
-                    *Interactive Concept: Prove your skill to unlock the new rider.
-                 </p>
-              </div>
-
               <h4 style={{ color: '#ef5097', fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '1.5rem' }}>The Script (45&quot;)</h4>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                 <div>
