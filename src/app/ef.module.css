@@ -538,11 +538,87 @@
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-.revealVisible {
-  opacity: 1;
-  transform: translateY(0);
+/* Carousel & Video Styles for Case Study */
+.carouselContainer {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding: 1rem 0 3rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
 }
+
+.carouselContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.carouselItem {
+  flex: 0 0 400px;
+  scroll-snap-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.carouselItem:hover {
+  transform: scale(1.02);
+}
+
+.carouselItem img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.videoSection {
+  background: #000;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-top: 2rem;
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+
+.videoPlayer {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videoOverlay {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  z-index: 10;
+  color: white;
+}
+
+.caseStudyTag {
+  background: var(--ef-pink);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.grid2Col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
 @media (max-width: 768px) {
+  .carouselItem { flex: 0 0 280px; }
+  .grid2Col { grid-template-columns: 1fr; }
+  .videoSection { aspect-ratio: 9 / 16; }
+}
+
   .nav { padding: 1rem; }
   .navLinks { display: none; }
   .hero { padding: 2rem 1rem; min-height: 70vh; }

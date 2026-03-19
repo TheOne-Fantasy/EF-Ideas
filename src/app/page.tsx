@@ -7,13 +7,11 @@ export default function EFPage() {
   const [fanId, setFanId] = useState('');
   const [mounted, setMounted] = useState(false);
   
-  // Handle mounting and generation of ID on client-side only to avoid hydration mismatch
   useEffect(() => {
     setMounted(true);
     setFanId(Math.floor(Math.random() * 100000).toString().padStart(6, '0'));
   }, []);
 
-  // Animation au scroll (Intersection Observer)
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -41,217 +39,146 @@ export default function EFPage() {
             </div>
             <div className={styles.candidateInfo}>
               <span className={styles.candidateName}>Paul Harrer</span>
-              <span className={styles.candidateTitle}>Social Media Strategy & Growth</span>
+              <span className={styles.candidateTitle}>Social Media Strategy Case Study</span>
             </div>
           </div>
           <div className={styles.navLinks}>
-            <a href="#culture">Culture</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#strategy">Strategy</a>
+            <a href="#tdf">TDF Win</a>
+            <a href="#lamperti">Lamperti</a>
+            <a href="#roadmap">Roadmap</a>
             <a href="#contact">Contact</a>
           </div>
         </nav>
       </header>
 
-      {/* Section 1: Hero */}
+      {/* Hero */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
+          <div className={styles.caseStudyTag}>EF PRO CYCLING 2025</div>
           <h1 className={styles.heroTitle}>
-            MORE THAN CONTENT.<br />
-            BUILDING THE DIGITAL INFRASTRUCTURE OF <br />
-            <span className={styles.heroPink}>THE PINK WAVE.</span>
+            BEYOND THE <span className={styles.heroPink}>FINISH LINE.</span><br />
+            A CASE STUDY IN DIGITAL CULTURE.
           </h1>
           <p className={styles.heroSubtitle}>
-            Harnessing Culture, Community, and Code for EF Pro Cycling.
+            Harnessing the &quot;Pink Wave&quot; through strategic content, unconventional identity, and community-first growth.
           </p>
-          <a href="#strategy" className={styles.ctaButton}>Explore My Strategy</a>
-          
-          <div className={styles.heroVisual}>
-             <div className={styles.grainyOverlay}></div>
-             <div style={{ width: '100%', height: '100%', background: '#0a0a0a', position: 'relative' }}>
-                <img 
-                  src="/ef-assets/hero.webp?v=1" 
-                  alt="EF Pro Cycling Hero" 
-                  style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.8 }} 
-                />
+          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+             <a href="#tdf" className={styles.ctaButton}>View Case Study</a>
+          </div>
+        </div>
+      </section>
+
+      {/* TASK 1: TDF STAGE WIN */}
+      <section id="tdf" className={`${styles.section} ${styles.reveal}`}>
+        <div className={styles.caseStudyTag}>TASK 1: CONTENT PACKAGE</div>
+        <h2 className={styles.sectionTitle}>
+          TOUR DE FRANCE: <br />
+          <span className={styles.heroPink}>STAGE 6 VICTORY.</span>
+        </h2>
+        <p className={styles.sectionSubtitle}>
+          Moving beyond a standard race recap to create an iconic visual object. High-impact graphics, raw emotions, and immersive sound.
+        </p>
+
+        <div className={styles.carouselContainer}>
+          <div className={styles.carouselItem}><img src="/case-study/1.png" alt="Slide 1 - Graphic" /></div>
+          <div className={styles.carouselItem}><img src="/case-study/2.png" alt="Slide 2 - Victory" /></div>
+          <div className={styles.carouselItem}><img src="/case-study/3.png" alt="Slide 3 - Emotion" /></div>
+          <div className={styles.carouselItem}><img src="/case-study/4.png" alt="Slide 4 - Peloton" /></div>
+          <div className={styles.carouselItem}><img src="/case-study/5.png" alt="Slide 5 - Podium" /></div>
+        </div>
+
+        <div className={styles.grid2Col}>
+          <div>
+            <h3>The &quot;Royal Flush&quot; Concept</h3>
+            <p>Utilizing the &quot;Argyle King&quot; design asset to position Ben Healy as the master of the race. This isn&apos;t just a photo; it&apos;s a collector&apos;s item for the #PinkHeartsClub.</p>
+            <div style={{ background: '#f5f5f5', padding: '1.5rem', borderRadius: '12px', marginTop: '1rem' }}>
+              <strong>Caption Strategy:</strong> Focus on &quot;Grit&quot; and &quot;Humanity&quot;.
+              <p style={{ fontStyle: 'italic', fontSize: '0.9rem', color: '#666' }}>&quot;This sport asks for everything you have. Your legs, your heart, your sanity. Sometimes, it takes more.&quot;</p>
+            </div>
+          </div>
+          <div className={styles.videoSection}>
+             <video 
+               className={styles.videoPlayer} 
+               controls 
+               poster="/case-study/2.png"
+             >
+               <source src="/case-study/TDF-Victory-Reel.mov" type="video/mp4" />
+               Your browser does not support the video tag.
+             </video>
+             <div className={styles.videoOverlay}>
+                <span className={styles.caseStudyTag}>The Sound of Victory (Reel)</span>
              </div>
           </div>
         </div>
       </section>
 
-      {/* Section 2: Culture EF */}
-      <section id="culture" className={`${styles.section} ${styles.reveal}`}>
-        <h2 className={styles.sectionTitle}>
-          EMBRACING THE EF SPIRIT:<br />
-          <span className={styles.heroPink}>PINK. PASSION. UNCONVENTIONAL.</span>
+      {/* TASK 2: LUKE LAMPERTI */}
+      <section id="lamperti" className={`${styles.section} ${styles.reveal}`} style={{ backgroundColor: '#000', color: '#fff' }}>
+        <div className={styles.caseStudyTag}>TASK 2: RIDER ANNOUNCEMENT</div>
+        <h2 className={styles.sectionTitle} style={{ color: '#fff' }}>
+          ANNOUNCING <span className={styles.heroPink}>LUKE LAMPERTI.</span>
         </h2>
-        <p className={styles.sectionSubtitle}>
-          My approach aligns with EF’s core values of alternative storytelling, adventure, and inclusivity.
+        <p className={styles.sectionSubtitle} style={{ color: '#aaa' }}>
+          How to launch a new American star when he&apos;s still under contract with his old team. 
         </p>
-        
-        <div className={styles.mosaicGrid}>
-          <div className={styles.mosaicItem}>
-            <img 
-              src="/ef-assets/culture-1.webp?v=1" 
-              alt="EF Culture Fog" 
-            />
-          </div>
-          <div className={styles.mosaicItem}>
-            <img 
-              src="/ef-assets/culture-2.webp?v=1" 
-              alt="EF Culture Cobbles" 
-            />
-          </div>
-          <div className={styles.mosaicItem}>
-            <img 
-              src="/ef-assets/culture-3.webp?v=1" 
-              alt="EF Riders Portrait" 
-            />
-          </div>
-          <div className={styles.mosaicItem}>
-            <img 
-              src="/ef-assets/culture-4.webp?v=1" 
-              alt="EF Jersey Back" 
-            />
-          </div>
+
+        <div className={styles.grid2Col}>
+           <div style={{ background: '#111', borderRadius: '24px', padding: '3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+              <h3>&quot;The Takeover&quot; Strategy</h3>
+              <p style={{ color: '#888' }}>Instead of hiding the Soudal-Quickstep kit, we lean into the transition. High-contrast Black & White portraits with aggressive &quot;Pink Wave&quot; brush strokes over the old colors.</p>
+              <ul style={{ color: '#888', marginTop: '1rem', listStyleType: 'square' }}>
+                <li><strong>Identity:</strong> Paint it Pink.</li>
+                <li><strong>Narrative:</strong> From Blue to Pink. The future is here.</li>
+                <li><strong>Impact:</strong> Fashion-editorial style announcement.</li>
+              </ul>
+           </div>
+           <div style={{ background: '#111', borderRadius: '24px', padding: '3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', border: '1px solid #333' }}>
+              <h3>Video Concept: &quot;Blackout Session&quot;</h3>
+              <p style={{ color: '#888' }}>A 30s teaser featuring Luke on a matte black Cannondale, wearing unbranded blackout kit. Flashy pink glitches appearing as he passes the lens.</p>
+              <div className={styles.caseStudyTag} style={{ marginTop: '1rem', background: '#333' }}>Teaser Vibe: High-Speed Mystery</div>
+           </div>
         </div>
       </section>
 
-      {/* Section 3: Portfolio & Stats */}
-      <section id="portfolio" className={`${styles.section} ${styles.reveal}`}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '2rem', marginBottom: '3rem' }}>
-          <div style={{ flex: 1, minWidth: '300px' }}>
-            <h2 className={styles.sectionTitle}>
-              THE PROOF IS IN THE REACH:<br />
-              <span className={styles.heroPink}>STRATEGIC IMPACT AT SCALE.</span>
-            </h2>
-            <p className={styles.sectionSubtitle} style={{ marginBottom: 0 }}>
-              10 years of piloting digital audiences and co-founding niche media.
-            </p>
-          </div>
-          <div className={styles.avatarContainer}>
-             <img src="/Photo-Profil.jpg" alt="Paul Harrer" className={styles.candidateAvatar} />
-          </div>
-        </div>
-
-        <div className={styles.statsGrid}>
-          <div className={styles.statCard}>
-            <span className={styles.statValue}>700K+</span>
-            <span className={styles.statLabel}>Subscribers Piloted (First Team)</span>
-          </div>
-          <div className={styles.statCard}>
-            <span className={styles.statValue}>2000+</span>
-            <span className={styles.statLabel}>Shows Produced & Directed</span>
-          </div>
-          <div className={styles.statCard}>
-            <span className={styles.statValue}>1000+</span>
-            <span className={styles.statLabel}>Active Cycling Fantasy Players</span>
-          </div>
-          <div className={styles.statCard}>
-            <span className={styles.statValue}>#1</span>
-            <span className={styles.statLabel}>Digital Cycling Talk-Show (FR)</span>
-          </div>
-        </div>
-
-        {/* Portfolio Preview Card */}
-        <div className={styles.portfolioPreviewCard}>
-          <div className={styles.portfolioPreviewContent}>
-            <h3>FULL PORTFOLIO</h3>
-            <p>10 years of field expertise in digital strategy, creative production, and social media growth for major sports ecosystems.</p>
-            <a href="https://paul-harrer.vercel.app/" target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>
-              Explore All Case Studies
-            </a>
-          </div>
-          <div className={styles.portfolioPreviewVisual}>
-            <img src="/portfolio-real-preview.png?v=1" alt="Portfolio Preview" />
-            <div className={styles.grainyOverlay}></div>
-          </div>
-        </div>
-      </section>
-
-      {/* Section 4: 3 Strategy Pillars */}
-      <section id="strategy" className={`${styles.section} ${styles.reveal}`}>
+      {/* TASK 3: COMMUNITY ROADMAP */}
+      <section id="roadmap" className={`${styles.section} ${styles.reveal}`}>
+        <div className={styles.caseStudyTag}>TASK 3: COMMUNITY & GROWTH</div>
         <h2 className={styles.sectionTitle}>
-          VISION 2026:<br />
-          <span className={styles.heroPink}>THE THREE PILLARS OF FUTURE GROWTH.</span>
+          BEYOND THE RECAP: <br />
+          <span className={styles.heroPink}>BUILDING A LEGACY.</span>
         </h2>
         
         <div className={styles.strategyGrid}>
-          {/* Card 1: Ecosystem */}
           <div className={styles.strategyCard}>
-            <div className={styles.strategyIcon}>
-               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-            </div>
-            <span className={styles.tag}>Fan Ecosystem</span>
-            <h3>The &quot;Pink Panthers&quot; (Working Title)</h3>
-            <p>Formalizing fan identity through a tiered digital membership club. 
-               <strong> Inspiration:</strong> The <em>&quot;Wolf Pack&quot;</em> model from Soudal Quick-Step, shifting from passive viewership to a branded community belonging.</p>
-            <div style={{ borderTop: '1px solid #eee', paddingTop: '1rem', marginTop: 'auto' }}>
-               <small style={{ color: '#888', fontStyle: 'italic' }}>Value: Exclusive access to Rapha drops, Cannondale tech, and <strong>exclusive invitations to team events & meet-and-greets.</strong></small>
-            </div>
+            <span className={styles.tag}>Pillar 1</span>
+            <h3>The &quot;Coffee Stop&quot;</h3>
+            <p>Lifestyle-first content. Talking about everything except cycling. Humanizing riders through their habits, music, and culture.</p>
           </div>
-
-          {/* Card 2: Hubs */}
           <div className={styles.strategyCard}>
-            <div className={styles.strategyIcon}>
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-            </div>
-            <span className={styles.tag}>Growth</span>
-            <h3>Localized Digital Hubs</h3>
-            <p>Scaling reach through region-specific storytelling. Following the successful NBA model in the French market (EF USA, EF Ecuador, EF France).</p>
-            <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', margin: '0.5rem 0' }}>
-               <a href="https://www.instagram.com/leschicagobulls/?hl=fr" target="_blank" rel="noopener noreferrer" className={styles.tag} style={{ background: '#000', color: '#fff', textDecoration: 'none', fontSize: '0.65rem' }}>@LesChicagoBulls</a>
-               <a href="https://www.instagram.com/lesspurs/?hl=fr" target="_blank" rel="noopener noreferrer" className={styles.tag} style={{ background: '#000', color: '#fff', textDecoration: 'none', fontSize: '0.65rem' }}>@LesSpurs</a>
-            </div>
-            <div style={{ borderTop: '1px solid #eee', paddingTop: '1rem', marginTop: 'auto' }}>
-               <small style={{ color: '#888', fontStyle: 'italic' }}>Dominating regional social algorithms through cultural relevance and local cycling fervor.</small>
-            </div>
+            <span className={styles.tag}>Pillar 2</span>
+            <h3>&quot;Inside the Bus&quot;</h3>
+            <p>Raw, unedited pre-race talks and post-race debriefs. Exclusive access that builds a sense of belonging for the fans.</p>
           </div>
-
-          {/* Card 3: AI */}
           <div className={styles.strategyCard}>
-            <div className={styles.strategyIcon}>
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-            </div>
-            <span className={styles.tag}>Innovation</span>
-            <h3>AI Community Assistant</h3>
-            <p>Closing the gap between pro riders and fans. A bespoke AI Bot to manage social interactions at scale, providing 24/7 engagement and personalized community support across all digital touchpoints.</p>
-            <p style={{ fontSize: '0.85rem', color: '#555', marginTop: '-0.5rem', fontWeight: 500 }}>
-              <em>&quot;The AI bot will be perfectly fine-tuned to mirror EF&apos;s unique tone of voice, visual identity, and unconventional spirit.&quot;</em>
-            </p>
-            <div style={{ borderTop: '1px solid #eee', paddingTop: '1rem', marginTop: 'auto' }}>
-               <small style={{ color: '#888', fontStyle: 'italic' }}>Scaling the unscalable: Real-time interaction for a global, multilingual fanbase.</small>
-            </div>
+            <span className={styles.tag}>Pillar 3</span>
+            <h3>&quot;Fan-Designed Route&quot;</h3>
+            <p>Interactive storytelling. Fans voting on gear colors, training playlists, or challenge destinations.</p>
           </div>
         </div>
-      </section>
 
-      {/* Section 5: Technical Capabilities */}
-      <section className={`${styles.section} ${styles.reveal}`}>
-        <h2 className={styles.sectionTitle}>
-          CODING CUSTOM ENGAGEMENT:<br />
-          <span className={styles.heroPink}>BEYOND PLATFORM LIMITS.</span>
-        </h2>
-        <p className={styles.sectionSubtitle}>
-          I don&apos;t just design tools; I can build them.
-        </p>
-
-        <div className={styles.generatorSection}>
+        {/* Prototype Interactif: Fan-ID */}
+        <div className={styles.generatorSection} style={{ marginTop: '4rem' }}>
           <div className={styles.generatorForm}>
-            <h3>Fan-ID Generator Prototype</h3>
+            <h3>Interactive Concept: Fan-ID</h3>
+            <p>Scaling personal engagement through automation. Every fan can generate their unique &quot;Pink Panthers&quot; membership card.</p>
             <div className={styles.inputGroup}>
-              <label htmlFor="fanName">Enter your name to join the Panthers</label>
               <input 
                 type="text" 
-                id="fanName" 
-                placeholder="Ex: Johannes" 
+                placeholder="Type your name..." 
                 value={fanName}
                 onChange={(e) => setFanName(e.target.value)}
               />
             </div>
-            <p style={{ fontSize: '0.9rem', color: '#666' }}>
-              <strong>High-Speed, Custom Microsites.</strong> Ability to code fast-loading landing pages for high-impact events or product launches.
-            </p>
           </div>
 
           <div className={styles.fanIdPreview}>
@@ -272,34 +199,24 @@ export default function EFPage() {
                 ID #{mounted ? fanId : '------'}
               </div>
               <div style={{ fontSize: '0.6rem', opacity: 0.8, textAlign: 'right' }}>
-                DIGITAL PASS 2026<br />VALID WORLDWIDE
+                DIGITAL PASS 2025<br />STUDY CASE PROTOTYPE
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Section 6: Final CTA */}
-      <section id="contact" className={styles.finalCta}>
-        <div className={`${styles.reveal}`}>
-          <h2>
-            READY FOR NEXT STEPS.<br />
-            LET&apos;S BUILD THE DIGITAL <span className={styles.heroPink}>PINK WAVE</span> TOGETHER.
-          </h2>
-          <a href="mailto:paulharrer@hotmail.com" className={styles.ctaButton}>
-            LET&apos;S HOP ON A CALL
-          </a>
-        </div>
-      </section>
-
       {/* Footer */}
-      <footer style={{ padding: '4rem 2rem', textAlign: 'center', backgroundColor: '#000', color: '#fff' }}>
-        <div style={{ marginBottom: '2rem' }}>
-          <img src="/EF-LOGO.png?v=1" alt="EF Logo" style={{ height: '35px', objectFit: 'contain', filter: 'brightness(0) invert(1)', opacity: 0.8 }} />
+      <footer style={{ padding: '6rem 2rem', textAlign: 'center', backgroundColor: '#000', color: '#fff' }}>
+        <div className={`${styles.reveal}`}>
+          <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem' }}>Ready to launch the <span className={styles.heroPink}>Pink Wave.</span></h2>
+          <div style={{ marginBottom: '3rem' }}>
+             <img src="/Photo-Profil.jpg" alt="Paul Harrer" style={{ width: '80px', height: '80px', borderRadius: '50%', border: '2px solid #ef5097' }} />
+             <p style={{ marginTop: '1rem', fontWeight: 600 }}>Paul Harrer</p>
+             <p style={{ color: '#666', fontSize: '0.9rem' }}>Social Media Manager Candidate</p>
+          </div>
+          <a href="mailto:paulharrer@hotmail.com" className={styles.ctaButton}>Connect</a>
         </div>
-        <p style={{ color: '#666', fontSize: '0.8rem' }}>
-          © 2026 Paul Harrer x EF Pro Cycling Strategy. All rights reserved.
-        </p>
       </footer>
     </main>
   );
