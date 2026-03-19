@@ -3,15 +3,6 @@ import { useState, useEffect } from 'react';
 import styles from './ef.module.css';
 
 export default function EFPage() {
-  const [fanName, setFanName] = useState('');
-  const [fanId, setFanId] = useState('');
-  const [mounted, setMounted] = useState(false);
-  
-  useEffect(() => {
-    setMounted(true);
-    setFanId(Math.floor(Math.random() * 100000).toString().padStart(6, '0'));
-  }, []);
-
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -342,46 +333,6 @@ export default function EFPage() {
             </div>
           </div>
         </div>
-
-        {/* Prototype Interactif: Fan-ID */}
-        <div className={styles.generatorSection} style={{ marginTop: '4rem' }}>
-          <div className={styles.generatorForm}>
-            <h3>Interactive Concept: Fan-ID</h3>
-            <p>Scaling personal engagement through automation. Every fan can generate their unique &quot;Pink Panthers&quot; membership card.</p>
-            <div className={styles.inputGroup}>
-              <input 
-                type="text" 
-                placeholder="Type your name..." 
-                value={fanName}
-                onChange={(e) => setFanName(e.target.value)}
-              />
-            </div>
-          </div>
-
-          <div className={styles.fanIdPreview}>
-             <div className={styles.fanIdBg}>
-                <img src="/ef-assets/culture-2.webp?v=1" alt="Card Background" />
-             </div>
-            <div className={styles.fanIdHeader} style={{ position: 'relative', zIndex: 1 }}>
-              <div className={styles.fanIdLogo}>
-                <img src="/EF-LOGO.png?v=1" alt="EF Logo" style={{ height: '20px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }} />
-              </div>
-              <div className={styles.fanIdType}>PINK PANTHERS CLUB</div>
-            </div>
-            <div className={styles.fanIdName} style={{ position: 'relative', zIndex: 1 }}>
-              {fanName || "YOUR NAME"}
-            </div>
-            <div className={styles.fanIdFooter} style={{ position: 'relative', zIndex: 1 }}>
-              <div className={styles.fanIdNumber}>
-                ID #{mounted ? fanId : '------'}
-              </div>
-              <div style={{ fontSize: '0.6rem', opacity: 0.8, textAlign: 'right' }}>
-                DIGITAL PASS 2025<br />STUDY CASE PROTOTYPE
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer style={{ padding: '6rem 2rem', textAlign: 'center', backgroundColor: '#000', color: '#fff' }}>
