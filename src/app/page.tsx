@@ -201,24 +201,64 @@ export default function EFPage() {
         <h2 className={styles.sectionTitle} style={{ color: '#fff' }}>
           ANNOUNCING <span className={styles.heroPink}>LUKE LAMPERTI.</span>
         </h2>
-        <p className={styles.sectionSubtitle} style={{ color: '#aaa' }}>
-          How to launch a new American star when he&apos;s still under contract with his old team. 
-        </p>
+        
+        {/* Strategic Overview for Task 2 */}
+        <div style={{ borderLeft: '2px solid #333', paddingLeft: '2rem', marginBottom: '4rem' }}>
+           <h3 style={{ color: '#fff', fontSize: '1.2rem', marginBottom: '0.5rem' }}>The Challenge: The Contract Constraint</h3>
+           <p style={{ color: '#aaa', fontSize: '0.9rem', maxWidth: '800px' }}>
+              How to launch a major American signing while he is still under contract with another team? 
+              We cannot show him in the EF kit, so we lean into a &quot;Blackout&quot; and &quot;Transition&quot; narrative. 
+              Instead of hiding the old colors, we aggressively &quot;Paint it Pink&quot;.
+           </p>
+        </div>
 
+        {/* DELIVERY A: THE ANNOUNCEMENT GRAPHIC */}
+        <div className={`${styles.grid2Col} ${styles.deliverySection}`} style={{ borderColor: '#222' }}>
+          <div>
+            <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY A: ANNOUNCEMENT GRAPHIC</div>
+            <h3 style={{ color: '#fff' }}>The &quot;Takeover&quot; Visual</h3>
+            <p style={{ color: '#888' }}><strong>Format:</strong> Static Vertical (4:5) / X / Instagram Feed.</p>
+            
+            <div className={styles.captionBox} style={{ background: '#111', color: '#fff', borderColor: '#333' }}>
+              <strong style={{ color: '#ef5097' }}>Proposed Caption:</strong>
+              The future? It&apos;s Pink. 💗🇺🇸 <br /><br />
+              Beyond excited to announce that American sensation Luke Lamperti is joining the EF Pro Cycling family. A rider who defines grit, speed, and the new generation of US cycling. <br /><br />
+              The journey starts now. Welcome to the Pink Wave, Luke. 🌊👊 <br /><br />
+              #EFProCycling #LukeLamperti #PinkPanthers #NewSigning #Cycling
+            </div>
+
+            <div className={styles.insightCard} style={{ background: '#111', borderLeftColor: '#ef5097' }}>
+              <h4 style={{ color: '#ef5097' }}>Strategic Insight: The &quot;Why&quot;</h4>
+              <p style={{ color: '#aaa' }}>Contractual constraints are turned into a brand advantage. By using high-contrast B&W imagery with aggressive Pink brush strokes, we visually &quot;reclaim&quot; the rider. It signals a new era for both the athlete and the team, creating a high-impact fashion-editorial aesthetic that stands out on the feed.</p>
+            </div>
+          </div>
+          
+          <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
+             <div style={{ flex: 1 }}>
+                <img src="/case-study/lamperti-1.png" alt="Lamperti Graphic Option 1" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 5px 30px rgba(0,0,0,0.5)' }} />
+                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.5rem', color: '#666' }}>Option 1: The Transition</p>
+             </div>
+             <div style={{ flex: 1 }}>
+                <img src="/case-study/lamperti-2.png" alt="Lamperti Graphic Option 2" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 5px 30px rgba(0,0,0,0.5)' }} />
+                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.5rem', color: '#666' }}>Option 2: The Statement</p>
+             </div>
+          </div>
+        </div>
+
+        {/* DELIVERY B: THE VIDEO CONCEPT (PLACEHOLDER) */}
         <div className={styles.grid2Col}>
-           <div style={{ background: '#111', borderRadius: '24px', padding: '3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-              <h3>&quot;The Takeover&quot; Strategy</h3>
-              <p style={{ color: '#888' }}>Instead of hiding the Soudal-Quickstep kit, we lean into the transition. High-contrast Black & White portraits with aggressive &quot;Pink Wave&quot; brush strokes over the old colors.</p>
-              <ul style={{ color: '#888', marginTop: '1rem', listStyleType: 'square' }}>
-                <li><strong>Identity:</strong> Paint it Pink.</li>
-                <li><strong>Narrative:</strong> From Blue to Pink. The future is here.</li>
-                <li><strong>Impact:</strong> Fashion-editorial style announcement.</li>
-              </ul>
-           </div>
-           <div style={{ background: '#111', borderRadius: '24px', padding: '3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', border: '1px solid #333' }}>
-              <h3>Video Concept: &quot;Blackout Session&quot;</h3>
+           <div style={{ background: '#111', borderRadius: '24px', padding: '3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', border: '1px solid #222' }}>
+              <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY B: VIDEO CONCEPT</div>
+              <h3 style={{ color: '#fff' }}>Video Concept: &quot;Blackout Session&quot;</h3>
               <p style={{ color: '#888' }}>A 30s teaser featuring Luke on a matte black Cannondale, wearing unbranded blackout kit. Flashy pink glitches appearing as he passes the lens.</p>
-              <div className={styles.caseStudyTag} style={{ marginTop: '1rem', background: '#333' }}>Teaser Vibe: High-Speed Mystery</div>
+              <div className={styles.insightCard} style={{ background: '#000', borderLeftColor: '#ef5097', marginTop: '1rem' }}>
+                <h4 style={{ color: '#ef5097' }}>Strategic Insight</h4>
+                <p style={{ color: '#aaa' }}>Mystery builds anticipation. No jersey, no sponsor logos—just the pure silhouette of the rider and the iconic sound of a freewheel. It creates a &quot;must-watch&quot; moment for fans waiting for the new season kit reveal.</p>
+              </div>
+           </div>
+           <div style={{ background: '#111', borderRadius: '24px', padding: '3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', border: '1px solid #333', textAlign: 'center' }}>
+              <h3 style={{ color: '#444' }}>Video Preview</h3>
+              <p style={{ color: '#444' }}>[READY FOR DELIVERY 2]</p>
            </div>
         </div>
       </section>
