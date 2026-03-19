@@ -187,9 +187,9 @@ export default function EFPage() {
              <video 
                className={styles.videoPlayer} 
                controls 
-               poster="/case-study/2.png"
+               poster="/case-study/card-2.png"
              >
-               <source src="/case-study/TDF-Victory-Reel.mov" type="video/mp4" />
+               <source src="/case-study/TDF-Victory-Reel-New.mov" type="video/mp4" />
              </video>
           </div>
         </div>
