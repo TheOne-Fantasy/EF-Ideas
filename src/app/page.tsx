@@ -86,27 +86,27 @@ export default function EFPage() {
               </p>
            </div>
            <div style={{ display: 'flex', gap: '1rem', textAlign: 'center' }}>
-              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '80px' }}>
-                <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T+2m</div>
+              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '70px' }}>
+                <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T-0</div>
                 <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>IMPACT</div>
               </div>
-              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '80px' }}>
+              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '70px' }}>
                 <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T+1h</div>
                 <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>STORY</div>
               </div>
-              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '80px' }}>
+              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '70px' }}>
                 <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T+3h</div>
                 <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>IMMERSION</div>
               </div>
            </div>
         </div>
 
-        {/* DELIVERY A */}
+        {/* DELIVERY A: T-0 IMPACT */}
         <div className={`${styles.grid2Col} ${styles.deliverySection}`}>
           <div>
-            <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY A: THE INSTANT GRAPHIC</div>
+            <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY A: T-0 INSTANT GRAPHIC</div>
             <h3>The &quot;Ours&quot; Statement</h3>
-            <p><strong>Format:</strong> Static Vertical (4:5) for Instagram/X.</p>
+            <p><strong>Format:</strong> Static Vertical (4:5).</p>
             
             <div className={styles.captionBox}>
               <strong>Proposed Caption:</strong>
@@ -117,19 +117,26 @@ export default function EFPage() {
 
             <div className={styles.insightCard}>
               <h4>Strategic Insight: The &quot;Why&quot;</h4>
-              <p>In the age of instant reporting, speed is everything. We don&apos;t wait for the official photo. We use the brand&apos;s iconic Pink to claim the win before anyone else. This creates a visually distinct moment in the feed that &quot;stops the scroll&quot; with pure identity.</p>
+              <p>At T-0 (the exact second the line is crossed), speed beats everything. We provide two visual options: <strong>Option 1</strong> (High-Contrast Text) for maximum readability, or <strong>Option 2</strong> (Iconic Argyle Pattern) for brand-first storytelling. Both claim the win before any official photo is available.</p>
             </div>
           </div>
-          <div style={{ maxWidth: '350px', margin: '0 auto' }}>
-             <img src="/case-study/1.png" alt="Breaking News Graphic" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 10px 40px rgba(0,0,0,0.15)' }} />
+          <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
+             <div style={{ flex: 1 }}>
+                <img src="/case-study/ours-1.png" alt="Ours Graphic Option 1" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 5px 20px rgba(0,0,0,0.1)' }} />
+                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.5rem', opacity: 0.6 }}>Option 1: Bold Statement</p>
+             </div>
+             <div style={{ flex: 1 }}>
+                <img src="/case-study/ours-2.png" alt="Ours Graphic Option 2" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 5px 20px rgba(0,0,0,0.1)' }} />
+                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.5rem', opacity: 0.6 }}>Option 2: Brand Identity</p>
+             </div>
           </div>
         </div>
 
-        {/* DELIVERY B */}
+        {/* DELIVERY B: T+1h STORY */}
         <div className={`${styles.deliverySection}`}>
           <div className={styles.grid2Col}>
             <div>
-              <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY B: STORYTELLING CAROUSEL</div>
+              <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY B: T+1h STORYTELLING CAROUSEL</div>
               <h3>The &quot;Royal Flush&quot; Sequence</h3>
               <p><strong>Format:</strong> 4-Slide Immersive Carousel (4:5).</p>
               
@@ -142,7 +149,7 @@ export default function EFPage() {
 
               <div className={styles.insightCard}>
                 <h4>Strategic Insight: The &quot;Why&quot;</h4>
-                <p>One hour later, we shift from &quot;Identity&quot; to &quot;Humanity&quot;. This carousel uses the &quot;Royal Flush&quot; card motif to position our rider as a master of the race, while the photography highlights the raw emotions of victory. It builds a deeper connection by showing the human cost of the win.</p>
+                <p>One hour later, we shift to storytelling. This carousel uses the &quot;Royal Flush&quot; motif to position our rider as a master of the race. By integrating the official victory photo at the end of the sequence, we reward the user&apos;s engagement with the definitive moment of the day.</p>
               </div>
             </div>
             
@@ -150,15 +157,15 @@ export default function EFPage() {
               <div className={styles.carouselItem}><img src="/case-study/2.png" alt="Slide 1 - Emotion" /></div>
               <div className={styles.carouselItem}><img src="/case-study/3.png" alt="Slide 2 - Detail" /></div>
               <div className={styles.carouselItem}><img src="/case-study/4.png" alt="Slide 3 - Context" /></div>
-              <div className={styles.carouselItem}><img src="/case-study/5.png" alt="Slide 4 - Podium" /></div>
+              <div className={styles.carouselItem}><img src="/case-study/5.png" alt="Slide 4 - Victory" /></div>
             </div>
           </div>
         </div>
 
-        {/* DELIVERY C */}
+        {/* DELIVERY C: T+3h IMMERSION */}
         <div className={`${styles.grid2Col} ${styles.deliverySection}`} style={{ borderBottom: 'none' }}>
           <div>
-            <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY C: SENSORY REEL</div>
+            <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY C: T+3h SENSORY REEL</div>
             <h3>The &quot;Sound of Victory&quot;</h3>
             <p><strong>Format:</strong> Vertical 9:16 (Reel/TikTok).</p>
             
@@ -171,7 +178,21 @@ export default function EFPage() {
 
             <div className={styles.insightCard}>
               <h4>Strategic Insight: The &quot;Why&quot;</h4>
-              <p>Fans are overwhelmed with over-edited content. By 3 hours post-race, we offer &quot;The Slow Down&quot;. No music, no fancy transitions—just high-fidelity raw audio. It establishes EF as a brand that respects the pure sounds of the sport, creating a premium, almost therapeutic experience for die-hard fans.</p>
+              <p>Three hours post-race, we offer &quot;The Slow Down&quot;. No music, no fancy transitions—just high-fidelity raw audio. It establishes EF as a brand that respects the pure sounds of the sport, creating a premium experience for fans.</p>
+            </div>
+          </div>
+
+          <div className={styles.videoSection} style={{ aspectRatio: '9 / 16', maxWidth: '350px', margin: '0 auto' }}>
+             <video 
+               className={styles.videoPlayer} 
+               controls 
+               poster="/case-study/2.png"
+             >
+               <source src="/case-study/TDF-Victory-Reel.mov" type="video/mp4" />
+             </video>
+          </div>
+        </div>
+      </section>
             </div>
           </div>
 
