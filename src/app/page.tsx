@@ -233,33 +233,68 @@ export default function EFPage() {
             </div>
           </div>
           
-          <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-             <div style={{ flex: 1 }}>
-                <img src="/case-study/lamperti-1.png" alt="Lamperti Graphic Option 1" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 5px 30px rgba(0,0,0,0.5)' }} />
-                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.5rem', color: '#666' }}>Option 1: The Transition</p>
-             </div>
-             <div style={{ flex: 1 }}>
-                <img src="/case-study/lamperti-2.png" alt="Lamperti Graphic Option 2" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 5px 30px rgba(0,0,0,0.5)' }} />
-                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.5rem', color: '#666' }}>Option 2: The Statement</p>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
+             <div style={{ maxWidth: '450px', width: '100%' }}>
+                <img src="/case-study/lamperti-final.png" alt="Luke Lamperti Announcement" style={{ width: '100%', borderRadius: '12px', boxShadow: '0 20px 50px rgba(0,0,0,0.6)' }} />
+                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '1rem', color: '#666' }}>Final Selection: The &quot;Paint it Pink&quot; Statement</p>
              </div>
           </div>
         </div>
 
-        {/* DELIVERY B: THE VIDEO CONCEPT (PLACEHOLDER) */}
-        <div className={styles.grid2Col}>
-           <div style={{ background: '#111', borderRadius: '24px', padding: '3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', border: '1px solid #222' }}>
+        {/* DELIVERY B: THE VIDEO CONCEPT */}
+        <div className={styles.deliverySection} style={{ borderBottom: 'none', paddingBottom: 0 }}>
+          <div className={styles.grid2Col}>
+            <div>
               <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY B: VIDEO CONCEPT</div>
-              <h3 style={{ color: '#fff' }}>Video Concept: &quot;Blackout Session&quot;</h3>
-              <p style={{ color: '#888' }}>A 30s teaser featuring Luke on a matte black Cannondale, wearing unbranded blackout kit. Flashy pink glitches appearing as he passes the lens.</p>
-              <div className={styles.insightCard} style={{ background: '#000', borderLeftColor: '#ef5097', marginTop: '1rem' }}>
-                <h4 style={{ color: '#ef5097' }}>Strategic Insight</h4>
-                <p style={{ color: '#aaa' }}>Mystery builds anticipation. No jersey, no sponsor logos—just the pure silhouette of the rider and the iconic sound of a freewheel. It creates a &quot;must-watch&quot; moment for fans waiting for the new season kit reveal.</p>
+              <h3 style={{ color: '#fff' }}>Concept: &quot;California Unlocked&quot;</h3>
+              <p style={{ color: '#888' }}><strong>Format:</strong> 45-second Short-form (9:16 / 4:5 hybrid).</p>
+              
+              <div className={styles.insightCard} style={{ background: '#111', borderLeftColor: '#ef5097' }}>
+                <h4 style={{ color: '#ef5097' }}>The Pitch</h4>
+                <p style={{ color: '#aaa' }}>How do we announce a top-tier American talent without his new kit? By leaning into his heritage rather than his jersey. &quot;California Unlocked&quot; is a high-octane video that merges the iconic &quot;Californication&quot; (RHCP) music video aesthetic with GTA-inspired gaming codes.</p>
               </div>
-           </div>
-           <div style={{ background: '#111', borderRadius: '24px', padding: '3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', border: '1px solid #333', textAlign: 'center' }}>
-              <h3 style={{ color: '#444' }}>Video Preview</h3>
-              <p style={{ color: '#444' }}>[READY FOR DELIVERY 2]</p>
-           </div>
+
+              <div style={{ marginTop: '2rem' }}>
+                <h4 style={{ color: '#fff', fontSize: '0.9rem', textTransform: 'uppercase', marginBottom: '1rem' }}>The &quot;Why&quot; it works:</h4>
+                <ul style={{ color: '#888', fontSize: '0.85rem', listStyleType: 'square', paddingLeft: '1.2rem', lineHeight: '1.6' }}>
+                  <li><strong style={{ color: '#fff' }}>Neutralizes the Constraint:</strong> The USA National kit feels like a &quot;National Pride&quot; statement rather than a placeholder.</li>
+                  <li><strong style={{ color: '#fff' }}>Cultural Bridge:</strong> Connects the team&apos;s American roots with global pop-culture and gaming communities.</li>
+                  <li><strong style={{ color: '#fff' }}>Viral Storytelling:</strong> Moves away from standard interviews to create a high-retention piece of digital art.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div style={{ background: '#111', borderRadius: '24px', padding: '2rem', border: '1px solid #222' }}>
+              <h4 style={{ color: '#ef5097', fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '1.5rem' }}>The Script (45&quot;)</h4>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+                <div>
+                  <div style={{ color: '#fff', fontSize: '0.7rem', fontWeight: 900, marginBottom: '0.3rem' }}>00-10” | CHARACTER SELECTION</div>
+                  <p style={{ color: '#666', fontSize: '0.8rem', margin: 0 }}>Luke &quot;glitches&quot; into frame. UI text: <span style={{ color: '#ef5097' }}>SELECT RIDER: LAMPERTI</span>. Vaporwave sunset background.</p>
+                </div>
+                <div>
+                  <div style={{ color: '#fff', fontSize: '0.7rem', fontWeight: 900, marginBottom: '0.3rem' }}>10-35” | THE MISSION</div>
+                  <p style={{ color: '#666', fontSize: '0.8rem', margin: 0 }}>Dynamic shots of Luke riding through San Francisco-style hills. Each checkpoint flashes EF Pink. Gaming UI: Pink Stamina bar, EF mini-map.</p>
+                </div>
+                <div>
+                  <div style={{ color: '#fff', fontSize: '0.7rem', fontWeight: 900, marginBottom: '0.3rem' }}>35-45” | MISSION PASSED</div>
+                  <p style={{ color: '#666', fontSize: '0.8rem', margin: 0 }}>Luke crosses a digital finish line. Screen freeze-frame with the message: <span style={{ color: '#ef5097' }}>&quot;NEW TEAM UNLOCKED&quot;</span>.</p>
+                </div>
+              </div>
+
+              <div style={{ marginTop: '2rem', paddingTop: '2rem', borderTop: '1px solid #222' }}>
+                <h4 style={{ color: '#fff', fontSize: '0.7rem', textTransform: 'uppercase', marginBottom: '1rem' }}>Visual Reference: RHCP Style</h4>
+                <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '12px' }}>
+                  <iframe 
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+                    src="https://www.youtube.com/embed/YlUKcNNmywk" 
+                    title="Californication Reference"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
