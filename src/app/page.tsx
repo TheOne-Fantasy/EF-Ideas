@@ -100,14 +100,14 @@ export default function EFPage() {
             
             <div className={styles.captionBox}>
               <strong>Proposed Caption:</strong>
-              Stage 6? Ours. 💗👊 <br /><br />
-              Healy claimed it. We owned it. The Pink Wave is here. <br /><br />
-              #EFProCycling #TDF2025 #PinkHeartsClub
+              NO WORDS. JUST PINK. 💗🏁<br /><br />
+              Stage 6 is OURS. Ben Healy just silenced the world. <br /><br />
+              #EFProCycling #TDF2025 #PinkPanthers
             </div>
 
             <div className={styles.insightCard}>
               <h4>Strategic Insight: The &quot;Why&quot;</h4>
-              <p>At T-0 (the exact second the line is crossed), speed beats everything. We provide two visual options: <strong>Option 1</strong> (High-Contrast Text) for maximum readability, or <strong>Option 2</strong> (Iconic Argyle Pattern) for brand-first storytelling. Both claim the win before any official photo is available.</p>
+              <p>At T-0, speed is everything. This post is not just a static image, it is a fast edit based on a pre-made template. The goal is to be the first to post the second the rider crosses the line. By having the design ready in advance, I can just drop in the right photo and post immediately. This workflow allows us to beat the news cycle and stand out with a bold, branded look instead of a generic race photo.</p>
             </div>
           </div>
           <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
@@ -132,14 +132,15 @@ export default function EFPage() {
               
               <div className={styles.captionBox}>
                 <strong>Proposed Caption:</strong>
-                More than just a win. It’s everything. 💗🥺 <br /><br />
-                Today, Ben Healy gave it all back. The tears? The relief of sacrifice. The hug? The brotherhood of a team that never stopped believing. <br /><br />
-                This is what it takes. #PinkHeartsClub #StageWin
+                A Royal Flush in the French mountains. 🃏💗<br /><br />
+                We didn’t just play the game; we owned the table today. Ben Healy played his cards perfectly to take Stage 6.<br /><br />
+                Swipe to see how we took the pot. 💰🏁<br /><br />
+                #EFProCycling #TDF2026 #PinkPanthers
               </div>
 
               <div className={styles.insightCard}>
                 <h4>Strategic Insight: The &quot;Why&quot;</h4>
-                <p>One hour later, we shift to storytelling. This carousel uses the &quot;Royal Flush&quot; motif to position our rider as a master of the race. By integrating the official victory photo at the end of the sequence, we reward the user&apos;s engagement with the definitive moment of the day.</p>
+                <p>The goal of this carousel is to turn a race win into a story using the &quot;Royal Flush&quot; metaphor. First, I chose the carousel format to increase engagement. By having 5 slides, we make fans spend more time on our post which always engaged more. Second, the poker theme fits the EF identity perfectly. Pro cycling is not just about legs; it is about strategy, bluffing, and taking risks. Using the &quot;Royal Flush&quot; reminds all those things. It shows that today, we played our cards perfectly to win the pot.</p>
               </div>
             </div>
             
@@ -162,14 +163,14 @@ export default function EFPage() {
             
             <div className={styles.captionBox}>
               <strong>Proposed Caption:</strong>
-              No music. Just the music of the race. 🚲💨 <br /><br />
-              Turn your volume UP for the raw ASMR of the final kilometer. The gears, the breath, the roar. <br /><br />
-              Experience it like you were there. #TDFSound #EFProCycling
+              The raw emotion of Stage 6. 💗🥺<br /><br />
+              How does it feel to win at the Tour ? <br /><br />
+              #EFProCycling #TDF2026 #BenHealy #PinkPanthers
             </div>
 
             <div className={styles.insightCard}>
               <h4>Strategic Insight: The &quot;Why&quot;</h4>
-              <p>Three hours post-race, we offer &quot;The Slow Down&quot;. No music, no fancy transitions—just high-fidelity raw audio. It establishes EF as a brand that respects the pure sounds of the sport, creating a premium experience for fans.</p>
+              <p>The goal is retention through storytelling. I used a &quot;Question-Payoff&quot; structure to keep fans watching until the very end. Starting with a personal question to Ben Healy creates curiosity. Finishing with his answer provides the emotional reward. This format is more powerful than a basic highlights video. It humanizes the rider and builds a real connection with the community. Strategically, it maximizes &quot;Watch Time,&quot; which is the most important signal for the Instagram algorithm.</p>
             </div>
           </div>
 
@@ -219,7 +220,7 @@ export default function EFPage() {
 
             <div className={styles.insightCard} style={{ background: '#111', borderLeftColor: '#ef5097' }}>
               <h4 style={{ color: '#ef5097' }}>Strategic Insight: The &quot;Why&quot;</h4>
-              <p style={{ color: '#aaa' }}>Contractual constraints are turned into a brand advantage. By using high-contrast B&W imagery with aggressive Pink brush strokes, we visually &quot;reclaim&quot; the rider. It signals a new era for both the athlete and the team, creating a high-impact fashion-editorial aesthetic that stands out on the feed.</p>
+              <p style={{ color: '#aaa' }}>The goal was to create a high-impact, editorial announcement. I chose to use high-contrast Black and White to neutralize the old team kit and give the content a stronger personality. This allows the EF brand identity to dominate the visual. I added strategic touches of pink and played with layers and transparency to create a premium, multi-dimensional look. Instead of a standard sports announcement, it feels like a fashion magazine cover.</p>
             </div>
           </div>
           
@@ -237,37 +238,41 @@ export default function EFPage() {
             <div>
               <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY B: VIDEO CONCEPT</div>
               <h3 style={{ color: '#fff' }}>Concept: &quot;California Unlocked&quot;</h3>
-              <p style={{ color: '#888' }}><strong>Format:</strong> 45-second Short-form (9:16 / 4:5 hybrid).</p>
+              <p style={{ color: '#888' }}><strong>Format:</strong> 30-second Short-form (9:16 / 4:5 hybrid).</p>
               
               <div className={styles.insightCard} style={{ background: '#111', borderLeftColor: '#ef5097' }}>
                 <h4 style={{ color: '#ef5097' }}>The Pitch</h4>
-                <p style={{ color: '#aaa' }}>How do we announce a top-tier American talent without his new kit? By leaning into his heritage rather than his jersey. &quot;California Unlocked&quot; is a high-octane video that merges the iconic &quot;Californication&quot; (RHCP) music video aesthetic with GTA-inspired gaming codes.</p>
+                <p style={{ color: '#aaa' }}>A 30-second vertical video. It blends the cel-shaded look of the RHCP &apos;Californication&apos; music video with the world of GTA. We follow Luke’s avatar collecting EF power-ups along the road until the finish line. The video ends with a &apos;New Team Unlocked : ‘EF Pro Cycling’ screen to officially announce his recruitment.</p>
               </div>
 
               <div style={{ marginTop: '2rem' }}>
                 <h4 style={{ color: '#fff', fontSize: '0.9rem', textTransform: 'uppercase', marginBottom: '1rem' }}>The &quot;Why&quot; it works:</h4>
-                <ul style={{ color: '#888', fontSize: '0.85rem', listStyleType: 'square', paddingLeft: '1.2rem', lineHeight: '1.6' }}>
-                  <li><strong style={{ color: '#fff' }}>Neutralizes the Constraint:</strong> The USA National kit feels like a &quot;National Pride&quot; statement rather than a placeholder.</li>
-                  <li><strong style={{ color: '#fff' }}>Cultural Bridge:</strong> Connects the team&apos;s American roots with global pop-culture and gaming communities.</li>
-                  <li><strong style={{ color: '#fff' }}>Viral Storytelling:</strong> Moves away from standard interviews to create a high-retention piece of digital art.</li>
-                </ul>
+                <p style={{ color: '#aaa', fontSize: '0.85rem', lineHeight: '1.6', marginBottom: '1.5rem' }}>
+                  This concept turns a contract constraint into a strategic brand win. Using the USA kit and gaming graphics celebrates Luke’s roots while keeping the focus on EF&apos;s identity. It replaces standard interviews with high-retention digital art designed for virality. This approach bridges cycling and pop culture to maximize global engagement and reach a younger audience.
+                </p>
+              </div>
+
+              <div className={styles.captionBox} style={{ background: '#111', color: '#fff', borderColor: '#333' }}>
+                <strong style={{ color: '#ef5097' }}>Proposed Caption:</strong>
+                We really got Luke Lamperti at EF before GTA 6. 🤯🎮💗<br /><br />
+                #EFProCycling #GTA6 #LukeLamperti #PinkPanthers
               </div>
             </div>
 
             <div style={{ background: '#111', borderRadius: '24px', padding: '2rem', border: '1px solid #222' }}>
-              <h4 style={{ color: '#ef5097', fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '1.5rem' }}>The Script (45&quot;)</h4>
+              <h4 style={{ color: '#ef5097', fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '1.5rem' }}>The Script (30&quot;)</h4>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                 <div>
-                  <div style={{ color: '#fff', fontSize: '0.7rem', fontWeight: 900, marginBottom: '0.3rem' }}>00-10” | CHARACTER SELECTION</div>
+                  <div style={{ color: '#fff', fontSize: '0.7rem', fontWeight: 900, marginBottom: '0.3rem' }}>00-05” | CHARACTER SELECTION</div>
                   <p style={{ color: '#666', fontSize: '0.8rem', margin: 0 }}>Luke &quot;glitches&quot; into frame. UI text: <span style={{ color: '#ef5097' }}>SELECT RIDER: LAMPERTI</span>. Vaporwave sunset background.</p>
                 </div>
                 <div>
-                  <div style={{ color: '#fff', fontSize: '0.7rem', fontWeight: 900, marginBottom: '0.3rem' }}>10-35” | THE MISSION</div>
+                  <div style={{ color: '#fff', fontSize: '0.7rem', fontWeight: 900, marginBottom: '0.3rem' }}>05-20” | THE MISSION</div>
                   <p style={{ color: '#666', fontSize: '0.8rem', margin: 0 }}>Dynamic shots of Luke riding through San Francisco-style hills. Each checkpoint flashes EF Pink. Gaming UI: Pink Stamina bar, EF mini-map.</p>
                 </div>
                 <div>
-                  <div style={{ color: '#fff', fontSize: '0.7rem', fontWeight: 900, marginBottom: '0.3rem' }}>35-45” | MISSION PASSED</div>
-                  <p style={{ color: '#666', fontSize: '0.8rem', margin: 0 }}>Luke crosses a digital finish line. Screen freeze-frame with the message: <span style={{ color: '#ef5097' }}>&quot;NEW TEAM UNLOCKED&quot;</span>.</p>
+                  <div style={{ color: '#fff', fontSize: '0.7rem', fontWeight: 900, marginBottom: '0.3rem' }}>20-30” | MISSION PASSED & REVEAL</div>
+                  <p style={{ color: '#666', fontSize: '0.8rem', margin: 0 }}>Luke crosses a digital finish line. Screen freeze-frame with the message: <span style={{ color: '#ef5097' }}>&quot;NEW TEAM UNLOCKED : EF PRO CYCLING&quot;</span>.</p>
                 </div>
               </div>
 
