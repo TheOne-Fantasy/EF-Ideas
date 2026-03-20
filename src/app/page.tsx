@@ -306,11 +306,11 @@ export default function EFPage() {
             <span className={styles.caseStudyTag} style={{ background: 'var(--ef-pink)', color: '#fff', marginBottom: '1rem' }}>FAN ECOSYSTEM</span>
             <h3>THE &quot;PINKSNAP&quot; COMMUNITY</h3>
             <p style={{ color: '#666', fontSize: '0.85rem', marginBottom: '1rem' }}>
-              <strong>Concept: From Hashtag to Private Club.</strong> Building a strong community identity inspired by the &quot;Wolfpack&quot; model, with EF&apos;s signature lifestyle approach.
+              <strong>Concept: From Hashtag to Private Club.</strong> Building a strong community identity with EF&apos;s signature lifestyle approach.
             </p>
             <ul style={{ color: '#444', fontSize: '0.8rem', paddingLeft: '1.2rem', marginBottom: '1.5rem' }}>
-              <li><strong>#PinkSnap:</strong> Launching a unique brand voice and a proprietary rallying cry referencing the Rapha/Palace reptile motifs.</li>
-              <li><strong>Membership Club:</strong> Turning followers into members with privileged access (Discord Q&As), field experiences, and partner rewards.</li>
+              <li><strong>#PinkSnap:</strong> Launching a unique brand voice and a proprietary rallying cry. <em>Example: #WolfPack (Quick Step).</em></li>
+              <li><strong>Membership Club:</strong> Turning followers into members with exclusive access to partner rewards, team event invitations, and athlete Q&As.</li>
             </ul>
             <div className={styles.insightCard} style={{ marginTop: 'auto' }}>
               <h4 style={{ fontSize: '0.65rem', marginBottom: '0.5rem' }}>Strategic Insight: The &quot;Why&quot;</h4>
