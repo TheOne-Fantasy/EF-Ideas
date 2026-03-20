@@ -325,13 +325,19 @@ export default function EFPage() {
             <span className={styles.caseStudyTag} style={{ background: '#000', color: '#fff', marginBottom: '1rem' }}>EXPANSION</span>
             <h3>LOCALIZED DIGITAL HUBS</h3>
             <p style={{ color: '#666', fontSize: '0.85rem', marginBottom: '1rem' }}>
-              <strong>Concept: The NBA Franchise Model (Global-to-Local).</strong> Breaking language barriers by creating regional entry points. 
-              <em> Examples: <a href="https://www.instagram.com/leschicagobulls/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--ef-pink)', textDecoration: 'underline' }}>@LesChicagoBulls</a>, <a href="https://www.instagram.com/lesspurs/?hl=fr" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--ef-pink)', textDecoration: 'underline' }}>@LesSpurs</a>.</em>
+              <strong>Concept: The NBA Franchise Model (Global-to-Local).</strong> Breaking language barriers by creating regional entry points.
             </p>
             <ul style={{ color: '#444', fontSize: '0.8rem', paddingLeft: '1.2rem', marginBottom: '1.5rem' }}>
               <li><strong>Regional Hubs:</strong> Launching @EFProCyclingFR, ESP, ITA, and a specific LATAM account (high Carapaz fan density).</li>
               <li><strong>Bespoke Content:</strong> Using local humor, idioms, and cultural references to drive 3x to 4x higher engagement.</li>
             </ul>
+            <div style={{ marginBottom: '1.5rem', fontSize: '0.75rem' }}>
+              <span style={{ fontWeight: 700, color: '#000', textTransform: 'uppercase', letterSpacing: '0.5px' }}>NBA Inspiration:</span>
+              <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.5rem' }}>
+                 <a href="https://www.instagram.com/leschicagobulls/" target="_blank" rel="noopener noreferrer" style={{ background: '#000', color: '#fff', padding: '0.4rem 0.8rem', borderRadius: '4px', textDecoration: 'none', fontWeight: 700 }}>@LesChicagoBulls</a>
+                 <a href="https://www.instagram.com/lesspurs/?hl=fr" target="_blank" rel="noopener noreferrer" style={{ background: '#000', color: '#fff', padding: '0.4rem 0.8rem', borderRadius: '4px', textDecoration: 'none', fontWeight: 700 }}>@LesSpurs</a>
+              </div>
+            </div>
             <div className={styles.insightCard} style={{ marginTop: 'auto' }}>
               <h4 style={{ fontSize: '0.65rem', marginBottom: '0.5rem' }}>Strategic Insight: The &quot;Why&quot;</h4>
               <p style={{ fontSize: '0.75rem', color: '#666', margin: 0 }}>
