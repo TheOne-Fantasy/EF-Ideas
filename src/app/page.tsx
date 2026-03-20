@@ -325,7 +325,8 @@ export default function EFPage() {
             <span className={styles.caseStudyTag} style={{ background: '#000', color: '#fff', marginBottom: '1rem' }}>EXPANSION</span>
             <h3>LOCALIZED DIGITAL HUBS</h3>
             <p style={{ color: '#666', fontSize: '0.85rem', marginBottom: '1rem' }}>
-              <strong>Concept: The NBA Franchise Model (Global-to-Local).</strong> Breaking language and distance barriers by creating dedicated regional entry points.
+              <strong>Concept: The NBA Franchise Model (Global-to-Local).</strong> Breaking language barriers by creating regional entry points. 
+              <em> Examples: <a href="https://www.instagram.com/leschicagobulls/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--ef-pink)', textDecoration: 'underline' }}>@LesChicagoBulls</a>, <a href="https://www.instagram.com/lesspurs/?hl=fr" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--ef-pink)', textDecoration: 'underline' }}>@LesSpurs</a>.</em>
             </p>
             <ul style={{ color: '#444', fontSize: '0.8rem', paddingLeft: '1.2rem', marginBottom: '1.5rem' }}>
               <li><strong>Regional Hubs:</strong> Launching @EFProCyclingFR, ESP, ITA, and a specific LATAM account (high Carapaz fan density).</li>
