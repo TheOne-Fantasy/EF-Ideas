@@ -141,8 +141,7 @@ export default function EFPage() {
               <div className={styles.insightCard}>
                 <h4>Strategic Insight: The &quot;Why&quot;</h4>
                 <p>The goal of this carousel is to turn a race win into a story using the &quot;Royal Flush&quot; metaphor. First, I chose the carousel format to increase engagement. By having 5 slides, we make fans spend more time on our post which always engaged more. Second, the poker theme fits the EF identity perfectly. Pro cycling is not just about legs; it is about strategy, bluffing, and taking risks. Using the &quot;Royal Flush&quot; reminds all those things. It shows that today, we played our cards perfectly to win the pot.</p>
-              </div>
-            </div>
+              </div>            </div>
             
             <div className={styles.carouselContainer}>
               <div className={styles.carouselItem}><img src="/case-study/card-1.png" alt="Poker Card 1" /></div>
@@ -218,7 +217,7 @@ export default function EFPage() {
               #EFProCycling #LukeLamperti #PinkPanthers #NewSigning #Cycling
             </div>
 
-            <div className={styles.insightCard} style={{ background: '#111', borderLeftColor: '#ef5097' }}>
+            <div className={styles.insightCard} style={{ background: '#111', color: '#fff' }}>
               <h4 style={{ color: '#ef5097' }}>Strategic Insight: The &quot;Why&quot;</h4>
               <p style={{ color: '#aaa' }}>The goal was to create a high-impact, editorial announcement. I chose to use high-contrast Black and White to neutralize the old team kit and give the content a stronger personality. This allows the EF brand identity to dominate the visual. I added strategic touches of pink and played with layers and transparency to create a premium, multi-dimensional look. Instead of a standard sports announcement, it feels like a fashion magazine cover.</p>
             </div>
@@ -240,7 +239,7 @@ export default function EFPage() {
               <h3 style={{ color: '#fff' }}>Concept: &quot;California Unlocked&quot;</h3>
               <p style={{ color: '#888' }}><strong>Format:</strong> 30-second Short-form (9:16 / 4:5 hybrid).</p>
               
-              <div className={styles.insightCard} style={{ background: '#111', borderLeftColor: '#ef5097' }}>
+              <div className={styles.insightCard} style={{ background: '#111', color: '#fff' }}>
                 <h4 style={{ color: '#ef5097' }}>The Pitch</h4>
                 <p style={{ color: '#aaa' }}>A 30-second vertical video. It blends the cel-shaded look of the RHCP &apos;Californication&apos; music video with the world of GTA. We follow Luke’s avatar collecting EF power-ups along the road until the finish line. The video ends with a &apos;New Team Unlocked : ‘EF Pro Cycling’ screen to officially announce his recruitment.</p>
               </div>
@@ -313,7 +312,7 @@ export default function EFPage() {
               <li><strong>#PinkSnap:</strong> Launching a unique brand voice and a proprietary rallying cry referencing the Rapha/Palace reptile motifs.</li>
               <li><strong>Membership Club:</strong> Turning followers into members with privileged access (Discord Q&As), field experiences, and partner rewards.</li>
             </ul>
-            <div className={styles.insightCard} style={{ marginTop: 'auto', padding: '1.2rem', background: '#fdf2f8' }}>
+            <div className={styles.insightCard} style={{ marginTop: 'auto' }}>
               <h4 style={{ fontSize: '0.65rem', marginBottom: '0.5rem' }}>Strategic Insight: The &quot;Why&quot;</h4>
               <p style={{ fontSize: '0.75rem', color: '#666', margin: 0 }}>
                 Shifting from passive followers to active members. Branding the &quot;Pink Wave&quot; as a lifestyle builds long-term loyalty and high engagement year-round, regardless of race results.
@@ -332,7 +331,7 @@ export default function EFPage() {
               <li><strong>Regional Hubs:</strong> Launching @EFProCyclingFR, ESP, ITA, and a specific LATAM account (high Carapaz fan density).</li>
               <li><strong>Bespoke Content:</strong> Using local humor, idioms, and cultural references to drive 3x to 4x higher engagement.</li>
             </ul>
-            <div className={styles.insightCard} style={{ marginTop: 'auto', padding: '1.2rem', background: '#f8f8f8' }}>
+            <div className={styles.insightCard} style={{ marginTop: 'auto' }}>
               <h4 style={{ fontSize: '0.65rem', marginBottom: '0.5rem' }}>Strategic Insight: The &quot;Why&quot;</h4>
               <p style={{ fontSize: '0.75rem', color: '#666', margin: 0 }}>
                 Localized content eliminates engagement barriers. It provides massive leverage for sponsors (target by country) and favors social algorithms that prioritize regional relevance.
@@ -351,7 +350,7 @@ export default function EFPage() {
               <li><strong>Systematic CTA:</strong> Every post or story is a direct invitation to exchange (&quot;What&apos;s your vision for 2026?&quot;).</li>
               <li><strong>No Bots Policy:</strong> 100% human interaction using EF&apos;s witty and expert tone to build unbreakable fan loyalty.</li>
             </ul>
-            <div className={styles.insightCard} style={{ marginTop: 'auto', padding: '1.2rem', background: '#fff', borderLeft: '3px solid var(--ef-pink)' }}>
+            <div className={styles.insightCard} style={{ marginTop: 'auto' }}>
               <h4 style={{ fontSize: '0.65rem', marginBottom: '0.5rem' }}>Strategic Insight: The &quot;Why&quot;</h4>
               <p style={{ fontSize: '0.75rem', color: '#666', margin: 0 }}>
                 Authenticity is a luxury in an AI-saturated world. 100% human responses trigger &quot;Meaningful Social Interaction&quot; signals, boosting reach while protecting the brand&apos;s soul.

@@ -188,7 +188,8 @@
 .insightCard {
   background: #ffffff;
   border: 1px solid rgba(0,0,0,0.06);
-  padding: 2rem;
+  border-left: 3px solid var(--ef-pink);
+  padding: 1.5rem;
   margin-top: 2rem;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.02);
