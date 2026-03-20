@@ -309,7 +309,7 @@ export default function EFPage() {
               <strong>Concept: From Hashtag to Private Club.</strong> Building a strong community identity with EF&apos;s signature lifestyle approach.
             </p>
             <ul style={{ color: '#444', fontSize: '0.8rem', paddingLeft: '1.2rem', marginBottom: '1.5rem' }}>
-              <li><strong>#PinkSnap:</strong> Launching a unique brand voice and a proprietary rallying cry. <em>Example: #WolfPack (Quick Step).</em></li>
+              <li><strong>#PinkSnap:</strong> Launching a unique brand voice and a proprietary rallying cry. <em>Example: #WolfPack (Quick Step).</em> <strong>Croco-inspired identity.</strong></li>
               <li><strong>Membership Club:</strong> Turning followers into members with exclusive access to partner rewards, team event invitations, and athlete Q&As.</li>
             </ul>
             <div className={styles.insightCard} style={{ marginTop: 'auto' }}>
