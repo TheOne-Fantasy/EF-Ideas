@@ -3,7 +3,7 @@
 Ce projet a été extrait du portfolio de Paul Harrer pour devenir un projet indépendant.
 
 ## 📁 Structure du Projet
-- `src/app/ef/` : Contient le code source React/Next.js (`page.tsx`) et le style CSS (`ef.module.css`).
+- `src/app/` : Contient le code source React/Next.js (`page.tsx`) et le style CSS (`ef.module.css`).
 - `public/` : Contient toutes les ressources visuelles (logos, images de la culture EF, assets du héros).
 
 ## 🚀 Vision Stratégique 2026
@@ -11,10 +11,9 @@ Le site présente une stratégie axée sur trois piliers majeurs pour la croissa
 
 1. **Fan Ecosystem (The "Pink Panthers")** : Création d'une identité de fan forte via un club de membre numérique, inspiré du modèle du "Wolf Pack".
 2. **Localized Digital Hubs** : Expansion de la portée via des plateformes régionales (EF USA, EF Ecuador, EF France) pour dominer les algorithmes locaux.
-3. **AI Community Assistant** : Utilisation de l'IA pour gérer les interactions sociales à grande échelle et offrir un support communautaire 24/7.
+3. **The Direct Line** : Passer d'une simple diffusion à une conversation active, en récompensant l'engagement et les théories des fans.
 
 ## 🛠 Fonctionnalités Techniques
-- **Fan-ID Generator** : Un prototype fonctionnel permettant aux fans de générer leur propre carte de membre numérique.
 - **Design Réactif** : Entièrement optimisé pour le mobile et le desktop.
 - **Animations Fluides** : Utilisation d'Intersection Observer pour des révélations au scroll.
 
