@@ -302,38 +302,60 @@ export default function EFPage() {
         </h2>
         
         <div className={styles.strategyGrid}>
-          {/* PILLAR 1 */}
+          {/* PILLAR 1 - PINKSNAP */}
           <div className={styles.strategyCard}>
-            <span className={styles.caseStudyTag} style={{ background: '#f0f0f0', color: '#666', marginBottom: '1rem' }}>FAN ECOSYSTEM</span>
-            <h3>THE &quot;PINK PANTHERS&quot;</h3>
-            <p style={{ color: '#666', fontSize: '0.9rem' }}>
-              Formalizing fan identity through a tiered digital membership club. 
-              <strong> Inspiration:</strong> The &quot;Wolf Pack&quot; model, shifting from passive viewership to a branded community belonging.
+            <span className={styles.caseStudyTag} style={{ background: 'var(--ef-pink)', color: '#fff', marginBottom: '1rem' }}>FAN ECOSYSTEM</span>
+            <h3>LA COMMUNAUTÉ &quot;PINKSNAP&quot;</h3>
+            <p style={{ color: '#666', fontSize: '0.85rem', marginBottom: '1rem' }}>
+              <strong>Concept : Du Hashtag au Club Privé.</strong> Construire une identité communautaire forte inspirée du &quot;Wolfpack&quot;, avec l&apos;approche lifestyle propre à EF.
             </p>
-          </div>
-
-          {/* PILLAR 2 */}
-          <div className={styles.strategyCard}>
-            <span className={styles.caseStudyTag} style={{ background: '#f0f0f0', color: '#666', marginBottom: '1rem' }}>GROWTH</span>
-            <h3>LOCALIZED DIGITAL HUBS</h3>
-            <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
-              Scaling reach through region-specific storytelling. Following the successful NBA model in the French market (EF USA, EF Ecuador, EF France).
-            </p>
-            <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-               <span style={{ fontSize: '0.6rem', background: '#000', color: '#fff', padding: '0.3rem 0.6rem', borderRadius: '4px', fontWeight: 800 }}>@LESCHICAGOBULLS</span>
-               <span style={{ fontSize: '0.6rem', background: '#000', color: '#fff', padding: '0.3rem 0.6rem', borderRadius: '4px', fontWeight: 800 }}>@LESSPURS</span>
+            <ul style={{ color: '#444', fontSize: '0.8rem', paddingLeft: '1.2rem', marginBottom: '1.5rem' }}>
+              <li><strong>#PinkSnap :</strong> Lancement d&apos;un cri de ralliement faisant écho aux motifs reptiliens Rapha/Palace.</li>
+              <li><strong>Membership Club :</strong> Accès privilégié (Q&A Discord), expériences terrain et récompenses partenaires (Rapha, Cannondale).</li>
+            </ul>
+            <div className={styles.insightCard} style={{ marginTop: 'auto', padding: '1.2rem', background: '#fdf2f8' }}>
+              <h4 style={{ fontSize: '0.65rem', marginBottom: '0.5rem' }}>Strategic Insight: The &quot;Why&quot;</h4>
+              <p style={{ fontSize: '0.75rem', color: '#666', margin: 0 }}>
+                Shifting from passive followers to active members. Branding the &quot;Pink Wave&quot; as a lifestyle builds long-term loyalty and high engagement year-round, regardless of race results.
+              </p>
             </div>
           </div>
 
-          {/* PILLAR 3 - THE CTA */}
+          {/* PILLAR 2 - GLOBAL HUBS */}
+          <div className={styles.strategyCard}>
+            <span className={styles.caseStudyTag} style={{ background: '#000', color: '#fff', marginBottom: '1rem' }}>EXPANSION</span>
+            <h3>HUBS LOCALISÉS</h3>
+            <p style={{ color: '#666', fontSize: '0.85rem', marginBottom: '1rem' }}>
+              <strong>Concept : Le Modèle NBA (Global-to-Local).</strong> Briser la barrière de la langue via des points d&apos;entrée régionaux.
+            </p>
+            <ul style={{ color: '#444', fontSize: '0.8rem', paddingLeft: '1.2rem', marginBottom: '1.5rem' }}>
+              <li><strong>Hubs Régionaux :</strong> @EFProCyclingFR, ESP, ITA et LATAM (Focus Carapaz).</li>
+              <li><strong>Contenu Sur-Mesure :</strong> Storytelling ciblé et humour local pour un engagement 3 à 4x supérieur.</li>
+            </ul>
+            <div className={styles.insightCard} style={{ marginTop: 'auto', padding: '1.2rem', background: '#f8f8f8' }}>
+              <h4 style={{ fontSize: '0.65rem', marginBottom: '0.5rem' }}>Strategic Insight: The &quot;Why&quot;</h4>
+              <p style={{ fontSize: '0.75rem', color: '#666', margin: 0 }}>
+                Localized content eliminates engagement barriers. It provides massive leverage for sponsors (target by country) and favors social algorithms that prioritize regional relevance.
+              </p>
+            </div>
+          </div>
+
+          {/* PILLAR 3 - HUMAN FIRST */}
           <div className={styles.strategyCard} style={{ border: '2px solid var(--ef-pink)', background: 'rgba(239, 80, 151, 0.02)' }}>
             <span className={styles.caseStudyTag} style={{ marginBottom: '1rem' }}>ENGAGEMENT</span>
-            <h3>THE &quot;DIRECT LINE&quot;</h3>
-            <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
-              Moving from broadcasting to <strong>conversation</strong>. Every post is a prompt. We don&apos;t just post content; we start debates and reward the best fan theories.
+            <h3>THE HUMAN-FIRST LOOP</h3>
+            <p style={{ color: '#666', fontSize: '0.85rem', marginBottom: '1rem' }}>
+              <strong>Concept : La Conversation au Cœur.</strong> Transformer chaque publication en un espace de discussion réel.
             </p>
-            <div style={{ background: '#ef5097', color: '#fff', padding: '1rem', borderRadius: '12px', textAlign: 'center', fontWeight: 800, fontSize: '0.8rem', cursor: 'pointer' }}>
-               DROP A COMMENT: WHAT&apos;S YOUR VISION FOR 2026? 💬
+            <ul style={{ color: '#444', fontSize: '0.8rem', paddingLeft: '1.2rem', marginBottom: '1.5rem' }}>
+              <li><strong>CTA Systématique :</strong> Chaque post est une invitation à l&apos;échange (&quot;Quel est votre avis ?&quot;).</li>
+              <li><strong>No Bots Policy :</strong> Interaction 100% humaine pour protéger l&apos;âme &quot;Alternative&quot; de la marque EF.</li>
+            </ul>
+            <div className={styles.insightCard} style={{ marginTop: 'auto', padding: '1.2rem', background: '#fff', borderLeft: '3px solid var(--ef-pink)' }}>
+              <h4 style={{ fontSize: '0.65rem', marginBottom: '0.5rem' }}>Strategic Insight: The &quot;Why&quot;</h4>
+              <p style={{ fontSize: '0.75rem', color: '#666', margin: 0 }}>
+                Authenticity is a luxury in an AI-saturated world. 100% human responses trigger &quot;Meaningful Social Interaction&quot; signals, boosting reach while building absolute fan loyalty.
+              </p>
             </div>
           </div>
         </div>
