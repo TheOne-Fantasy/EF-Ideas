@@ -365,6 +365,31 @@ export default function EFPage() {
             </div>
           </div>
         </div>
+
+        {/* Measuring Success */}
+        <div className={styles.reveal} style={{ marginTop: '6rem', borderTop: '1px solid #eee', paddingTop: '4rem' }}>
+          <h3 style={{ fontSize: '2rem', fontWeight: 900, marginBottom: '3rem', textAlign: 'center', textTransform: 'uppercase', letterSpacing: '-1px' }}>
+            MEASURING SUCCESS: <span className={styles.heroPink}>BEYOND THE PODIUM.</span>
+          </h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.5rem' }}>
+            <div style={{ background: '#f9f9f9', padding: '2rem', borderRadius: '24px', border: '1px solid #eee' }}>
+              <h4 style={{ color: 'var(--ef-pink)', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '1rem', fontWeight: 800 }}>01. Real Conversations</h4>
+              <p style={{ fontSize: '0.85rem', color: '#555', lineHeight: '1.6', margin: 0 }}>We don&apos;t count likes; we count <strong>Replies and Shares</strong>. If fans aren&apos;t talking back or sending our content to friends, we aren&apos;t doing our job.</p>
+            </div>
+            <div style={{ background: '#f9f9f9', padding: '2rem', borderRadius: '24px', border: '1px solid #eee' }}>
+              <h4 style={{ color: 'var(--ef-pink)', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '1rem', fontWeight: 800 }}>02. The Lifestyle Test</h4>
+              <p style={{ fontSize: '0.85rem', color: '#555', lineHeight: '1.6', margin: 0 }}>We track the performance of non-race content. Success is when a lifestyle video performs as well as a stage win. This proves we are a <strong>brand</strong>, not just a result.</p>
+            </div>
+            <div style={{ background: '#f9f9f9', padding: '2rem', borderRadius: '24px', border: '1px solid #eee' }}>
+              <h4 style={{ color: 'var(--ef-pink)', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '1rem', fontWeight: 800 }}>03. Fan Loyalty</h4>
+              <p style={{ fontSize: '0.85rem', color: '#555', lineHeight: '1.6', margin: 0 }}>We monitor the growth of the <strong>#PinkSnap community</strong> and Club sign-ups. We want active members, not passive scrollers.</p>
+            </div>
+            <div style={{ background: '#f9f9f9', padding: '2rem', borderRadius: '24px', border: '1px solid #eee' }}>
+              <h4 style={{ color: 'var(--ef-pink)', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1.5px', marginBottom: '1rem', fontWeight: 800 }}>04. Attention Span</h4>
+              <p style={{ fontSize: '0.85rem', color: '#555', lineHeight: '1.6', margin: 0 }}>For our storytelling Reels, the only metric that matters is the <strong>Completion Rate</strong>. We want fans to stay for the whole story, not just the first 3 seconds.</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Footer */}
