@@ -102,7 +102,7 @@ export default function EFPage() {
               <strong>Proposed Caption:</strong>
               NO WORDS. JUST PINK. 💗🏁<br /><br />
               Stage 6 is OURS. Ben Healy just silenced the world. <br /><br />
-              #EFProCycling #TDF2025 #PinkPanthers
+              #EFProCycling #TDF2025 #PinkSnap
             </div>
 
             <div className={styles.insightCard}>
@@ -135,7 +135,7 @@ export default function EFPage() {
                 A Royal Flush in the French mountains. 🃏💗<br /><br />
                 We didn’t just play the game; we owned the table today. Ben Healy played his cards perfectly to take Stage 6.<br /><br />
                 Swipe to see how we took the pot. 💰🏁<br /><br />
-                #EFProCycling #TDF2026 #PinkPanthers
+                #EFProCycling #TDF2026 #PinkSnap
               </div>
 
               <div className={styles.insightCard}>
@@ -164,7 +164,7 @@ export default function EFPage() {
               <strong>Proposed Caption:</strong>
               The raw emotion of Stage 6. 💗🥺<br /><br />
               How does it feel to win at the Tour ? <br /><br />
-              #EFProCycling #TDF2026 #BenHealy #PinkPanthers
+              #EFProCycling #TDF2026 #BenHealy #PinkSnap
             </div>
 
             <div className={styles.insightCard}>
@@ -214,7 +214,7 @@ export default function EFPage() {
               The future is pink. 💗🇺🇸 <br /><br />
               Beyond excited to announce that American sensation Luke Lamperti is joining the EF Pro Cycling family. A rider who defines grit, speed, and the new generation of US cycling. <br /><br />
               The journey starts now. Welcome to the Pink Wave, Luke. 🌊👊 <br /><br />
-              #EFProCycling #LukeLamperti #PinkPanthers #NewSigning #Cycling
+              #EFProCycling #LukeLamperti #PinkSnap #NewSigning #Cycling
             </div>
 
             <div className={styles.insightCard} style={{ background: '#111', color: '#fff' }}>
@@ -254,7 +254,7 @@ export default function EFPage() {
               <div className={styles.captionBox} style={{ background: '#111', color: '#fff', borderColor: '#333' }}>
                 <strong style={{ color: '#ef5097' }}>Proposed Caption:</strong>
                 We really got Luke Lamperti at EF before GTA 6. 🤯🎮💗<br /><br />
-                #EFProCycling #GTA6 #LukeLamperti #PinkPanthers
+                #EFProCycling #GTA6 #LukeLamperti #PinkSnap
               </div>
             </div>
 
