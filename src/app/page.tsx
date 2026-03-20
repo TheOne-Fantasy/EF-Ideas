@@ -346,21 +346,21 @@ export default function EFPage() {
             </div>
           </div>
 
-          {/* PILLAR 3 - HUMAN FIRST */}
-          <div className={styles.strategyCard}>
-            <span className={styles.caseStudyTag} style={{ background: '#ef5097', color: '#fff', marginBottom: '1rem' }}>ENGAGEMENT</span>
-            <h3>THE HUMAN-FIRST LOOP</h3>
+          {/* PILLAR 3 - DIRECT LINE */}
+          <div className={styles.strategyCard} style={{ border: '2px solid var(--ef-pink)', background: 'rgba(239, 80, 151, 0.02)' }}>
+            <span className={styles.caseStudyTag} style={{ marginBottom: '1rem' }}>ENGAGEMENT</span>
+            <h3>THE &quot;DIRECT LINE&quot; STRATEGY</h3>
             <p style={{ color: '#666', fontSize: '0.85rem', marginBottom: '1rem' }}>
-              <strong>Concept: Conversation at the Core.</strong> Transforming every single publication into a real, high-quality discussion space.
+              <strong>Concept: Turning Content into Conversation.</strong> Shifting from one-way broadcasting to an active, two-way debate space.
             </p>
             <ul style={{ color: '#444', fontSize: '0.8rem', paddingLeft: '1.2rem', marginBottom: '1.5rem' }}>
-              <li><strong>Systematic CTA:</strong> Every post or story is a direct invitation to exchange (&quot;What&apos;s your vision for 2026?&quot;).</li>
-              <li><strong>No Bots Policy:</strong> 100% human interaction using EF&apos;s witty and expert tone to build unbreakable fan loyalty.</li>
+              <li><strong>Systematic Prompts:</strong> Every post is a prompt designed to trigger fan theories and debates (e.g., &quot;What&apos;s your strategy for tomorrow?&quot;).</li>
+              <li><strong>Proactive Response:</strong> Fueling the fire with 100% human, witty, and expert engagement to keep the discussion loop alive.</li>
             </ul>
             <div className={styles.insightCard} style={{ marginTop: 'auto' }}>
               <h4 style={{ fontSize: '0.65rem', marginBottom: '0.5rem' }}>Strategic Insight: The &quot;Why&quot;</h4>
               <p style={{ fontSize: '0.75rem', color: '#666', margin: 0 }}>
-                Authenticity is a luxury in an AI-saturated world. 100% human responses trigger &quot;Meaningful Social Interaction&quot; signals, boosting reach while protecting the brand&apos;s soul.
+                Algorithms prioritize &quot;Meaningful Social Interaction.&quot; By inciting debates and personally responding to the community, we maximize organic reach while building an unbreakable &quot;Ride-or-Die&quot; fanbase.
               </p>
             </div>
           </div>
