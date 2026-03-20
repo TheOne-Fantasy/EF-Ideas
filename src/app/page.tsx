@@ -69,10 +69,10 @@ export default function EFPage() {
         {/* Strategic Roadmap for Task 1 */}
         <div style={{ background: '#000', color: '#fff', padding: '2rem', borderRadius: '24px', marginBottom: '4rem', display: 'flex', gap: '2rem', alignItems: 'center' }}>
            <div style={{ flex: 1 }}>
-              <h3 style={{ color: '#fff', fontSize: '1.2rem', marginBottom: '0.5rem' }}>Strategic Roadmap: The &quot;Afterglow&quot; Loop</h3>
+              <h3 style={{ color: '#fff', fontSize: '1.2rem', marginBottom: '0.5rem' }}>Strategic Roadmap</h3>
               <p style={{ color: '#aaa', fontSize: '0.9rem', margin: 0 }}>
                 A multi-layered deployment strategy focused on immediate dominance, deep engagement, and sensory immersion. 
-                Instead of a simple recap, we create a 3-hour narrative arc that keeps the audience in our ecosystem.
+                Instead of a simple recap, we create a narrative arc that keeps the audience in our ecosystem.
               </p>
            </div>
            <div style={{ display: 'flex', gap: '1rem', textAlign: 'center' }}>
@@ -81,11 +81,11 @@ export default function EFPage() {
                 <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>IMPACT</div>
               </div>
               <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '70px' }}>
-                <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T+1h</div>
+                <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T +30-60 min</div>
                 <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>STORY</div>
               </div>
               <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '70px' }}>
-                <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T+3h</div>
+                <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T +2h</div>
                 <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>IMMERSION</div>
               </div>
            </div>
@@ -122,11 +122,11 @@ export default function EFPage() {
           </div>
         </div>
 
-        {/* DELIVERY B: T+1h STORY */}
+        {/* DELIVERY B: T +30-60 min STORY */}
         <div className={`${styles.deliverySection}`}>
           <div className={styles.grid2Col}>
             <div>
-              <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY B: T+1h STORYTELLING CAROUSEL</div>
+              <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY B: T +30-60 min STORYTELLING CAROUSEL</div>
               <h3>The &quot;Royal Flush&quot; Sequence</h3>
               <p><strong>Format:</strong> 4-Slide Immersive Carousel (4:5).</p>
               
@@ -154,10 +154,10 @@ export default function EFPage() {
           </div>
         </div>
 
-        {/* DELIVERY C: T+3h IMMERSION */}
+        {/* DELIVERY C: T +2h IMMERSION */}
         <div className={`${styles.grid2Col} ${styles.deliverySection}`} style={{ borderBottom: 'none' }}>
           <div>
-            <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY C: T+3h SENSORY REEL</div>
+            <div className={styles.caseStudyTag} style={{ background: '#333' }}>DELIVERY C: T +2h SENSORY REEL</div>
             <h3>The &quot;Sound of Victory&quot;</h3>
             <p><strong>Format:</strong> Vertical 9:16 (Reel/TikTok).</p>
             
@@ -212,7 +212,7 @@ export default function EFPage() {
             
             <div className={styles.captionBox} style={{ background: '#111', color: '#fff', borderColor: '#333' }}>
               <strong style={{ color: '#ef5097' }}>Proposed Caption:</strong>
-              The future? It&apos;s Pink. 💗🇺🇸 <br /><br />
+              The future is pink. 💗🇺🇸 <br /><br />
               Beyond excited to announce that American sensation Luke Lamperti is joining the EF Pro Cycling family. A rider who defines grit, speed, and the new generation of US cycling. <br /><br />
               The journey starts now. Welcome to the Pink Wave, Luke. 🌊👊 <br /><br />
               #EFProCycling #LukeLamperti #PinkPanthers #NewSigning #Cycling
