@@ -328,7 +328,7 @@ export default function EFPage() {
               <strong>Concept: The NBA Franchise Model (Global-to-Local).</strong> Breaking language barriers by creating regional entry points.
             </p>
             <ul style={{ color: '#444', fontSize: '0.8rem', paddingLeft: '1.2rem', marginBottom: '1.5rem' }}>
-              <li><strong>Regional Hubs:</strong> Launching @EFProCyclingFR, ESP, ITA, and a specific LATAM account (high Carapaz fan density).</li>
+              <li><strong>Regional Hubs:</strong> Potential launch of dedicated accounts such as @EFProCyclingFR, ITA, or a combined ESP/LATAM hub (leveraging the high Carapaz fan density).</li>
               <li><strong>Bespoke Content:</strong> Using local humor, idioms, and cultural references to drive 3x to 4x higher engagement.</li>
             </ul>
             <div style={{ marginBottom: '1.5rem', fontSize: '0.75rem' }}>
