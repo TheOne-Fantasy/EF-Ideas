@@ -67,7 +67,7 @@ export default function EFPage() {
         </h2>
         
         {/* Strategic Roadmap for Task 1 */}
-        <div style={{ background: '#000', color: '#fff', padding: '2rem', borderRadius: '24px', marginBottom: '4rem', display: 'flex', gap: '2rem', alignItems: 'center' }}>
+        <div className={styles.strategyHeader}>
            <div style={{ flex: 1 }}>
               <h3 style={{ color: '#fff', fontSize: '1.2rem', marginBottom: '0.5rem' }}>Strategic Roadmap</h3>
               <p style={{ color: '#aaa', fontSize: '0.9rem', margin: 0 }}>
@@ -75,16 +75,16 @@ export default function EFPage() {
                 Instead of a simple recap, we create a narrative arc that keeps the audience in our ecosystem.
               </p>
            </div>
-           <div style={{ display: 'flex', gap: '1rem', textAlign: 'center' }}>
-              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '70px' }}>
+           <div className={styles.roadmapContainer}>
+              <div className={styles.roadmapItem}>
                 <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T-0</div>
                 <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>IMPACT</div>
               </div>
-              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '70px' }}>
+              <div className={styles.roadmapItem}>
                 <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T +30-60 min</div>
                 <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>STORY</div>
               </div>
-              <div style={{ background: '#222', padding: '0.8rem', borderRadius: '12px', minWidth: '70px' }}>
+              <div className={styles.roadmapItem}>
                 <div style={{ color: 'var(--ef-pink)', fontWeight: 900 }}>T +2h</div>
                 <div style={{ fontSize: '0.6rem', opacity: 0.6 }}>IMMERSION</div>
               </div>
@@ -110,7 +110,7 @@ export default function EFPage() {
               <p>At T-0, speed is everything. This post is not just a static image, it is a fast edit based on a pre-made template. The goal is to be the first to post the second the rider crosses the line. By having the design ready in advance, I can just drop in the right photo and post immediately. This workflow allows us to beat the news cycle and stand out with a bold, branded look instead of a generic race photo.</p>
             </div>
           </div>
-          <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
+          <div className={styles.flexGrid}>
              <div style={{ flex: 1 }}>
                 <img src="/case-study/ours-1.png" alt="Ours Graphic Option 1" className={styles.staticPost} />
                 <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.75rem', opacity: 0.6 }}>Option 1: Bold Statement</p>
@@ -333,7 +333,7 @@ export default function EFPage() {
             </ul>
             <div style={{ marginBottom: '1.5rem', fontSize: '0.75rem' }}>
               <span style={{ fontWeight: 700, color: '#000', textTransform: 'uppercase', letterSpacing: '0.5px' }}>NBA Inspiration:</span>
-              <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.5rem' }}>
+              <div className={styles.badgeContainer}>
                  <a href="https://www.instagram.com/leschicagobulls/" target="_blank" rel="noopener noreferrer" style={{ background: '#000', color: '#fff', padding: '0.4rem 0.8rem', borderRadius: '4px', textDecoration: 'none', fontWeight: 700 }}>@LesChicagoBulls</a>
                  <a href="https://www.instagram.com/lesspurs/?hl=fr" target="_blank" rel="noopener noreferrer" style={{ background: '#000', color: '#fff', padding: '0.4rem 0.8rem', borderRadius: '4px', textDecoration: 'none', fontWeight: 700 }}>@LesSpurs</a>
               </div>

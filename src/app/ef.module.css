@@ -342,9 +342,54 @@
   transform: translateY(0);
 }
 
-@media (max-width: 1024px) {
-  .grid2Col { grid-template-columns: 1fr; gap: 3rem; }
-  .strategyGrid { grid-template-columns: 1fr; }
-  .generatorSection { grid-template-columns: 1fr; padding: 2.5rem; gap: 3rem; }
-  .heroTitle { letter-spacing: -2px; }
+.roadmapContainer {
+  display: flex;
+  gap: 1rem;
+  text-align: center;
 }
+
+.roadmapItem {
+  background: #222;
+  padding: 0.8rem;
+  border-radius: 12px;
+  min-width: 70px;
+  flex: 1;
+}
+
+.badgeContainer {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.strategyHeader {
+  background: #000;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 24px;
+  margin-bottom: 4rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.flexGrid {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 1024px) {
+...
+  .strategyHeader { flex-direction: column; text-align: center; gap: 1.5rem; padding: 1.5rem; }
+  .flexGrid { gap: 1rem; }
+}
+
+@media (max-width: 768px) {
+...
+  .deliverySection { margin-top: 4rem; padding-top: 2rem; }
+  .flexGrid { flex-direction: column; }
+  .flexGrid > div { width: 100%; }
+  .roadmapContainer { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+...
