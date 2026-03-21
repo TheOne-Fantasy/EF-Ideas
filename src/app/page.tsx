@@ -111,8 +111,10 @@ export default function EFPage() {
             </div>
           </div>
           <div>
-             <img src="/case-study/ours-1.png" alt="Ours Graphic" className={styles.staticPost} />
-             <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.75rem', opacity: 0.6 }}>Final Selection: High-Contrast Brand Statement</p>
+             <div style={{ maxWidth: '400px', margin: '0 auto' }}>
+                <img src="/case-study/ours-final.png" alt="Ours Graphic" className={styles.staticPost} style={{ maxHeight: '70vh', objectFit: 'contain' }} />
+                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.75rem', opacity: 0.6 }}>Final Selection: High-Contrast Brand Statement</p>
+             </div>
           </div>
         </div>
 
