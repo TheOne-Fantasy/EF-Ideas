@@ -110,15 +110,9 @@ export default function EFPage() {
               <p>At T-0, speed is everything. This post is not just a static image, it is a fast edit based on a pre-made template. The goal is to be the first to post the second the rider crosses the line. By having the design ready in advance, I can just drop in the right photo and post immediately. This workflow allows us to beat the news cycle and stand out with a bold, branded look instead of a generic race photo.</p>
             </div>
           </div>
-          <div className={styles.flexGrid}>
-             <div style={{ flex: 1 }}>
-                <img src="/case-study/ours-1.png" alt="Ours Graphic Option 1" className={styles.staticPost} />
-                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.75rem', opacity: 0.6 }}>Option 1: Bold Statement</p>
-             </div>
-             <div style={{ flex: 1 }}>
-                <img src="/case-study/ours-2.png" alt="Ours Graphic Option 2" className={styles.staticPost} />
-                <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.75rem', opacity: 0.6 }}>Option 2: Brand Identity</p>
-             </div>
+          <div>
+             <img src="/case-study/ours-1.png" alt="Ours Graphic" className={styles.staticPost} />
+             <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '0.75rem', opacity: 0.6 }}>Final Selection: High-Contrast Brand Statement</p>
           </div>
         </div>
 
