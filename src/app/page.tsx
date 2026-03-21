@@ -397,7 +397,7 @@ export default function EFPage() {
         <div className={`${styles.reveal}`}>
           <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 900, marginBottom: '3rem', textTransform: 'uppercase', letterSpacing: '-1px' }}>
             BEYOND THE FEED.<br />
-            BUILDING THE FUTURE OF THE <span className={styles.heroPink}>PINK WAVE.</span>
+            BUILDING THE FUTURE OF THE <span className={styles.heroPink}>EF BRAND.</span>
           </h2>
           <div style={{ marginBottom: '4rem' }}>
              <img src="/Photo-Profil.jpg" alt="Paul Harrer" style={{ width: '100px', height: '100px', borderRadius: '50%', border: '3px solid #ef5097', marginBottom: '1.5rem' }} />
