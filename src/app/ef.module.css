@@ -381,15 +381,32 @@
 }
 
 @media (max-width: 1024px) {
-...
+  :root {
+    --section-padding: 4rem 1.5rem;
+  }
+  .grid2Col { grid-template-columns: 1fr; gap: 3rem; }
+  .strategyGrid { grid-template-columns: 1fr; }
+  .heroTitle { font-size: clamp(2.5rem, 10vw, 4rem); letter-spacing: -2px; }
+  .sectionTitle { font-size: 2.5rem; }
+  .roadmapContainer { flex-direction: column; width: 100%; }
+  .roadmapItem { min-width: auto; width: 100%; }
   .strategyHeader { flex-direction: column; text-align: center; gap: 1.5rem; padding: 1.5rem; }
   .flexGrid { gap: 1rem; }
 }
 
 @media (max-width: 768px) {
-...
+  .navLinks { display: none; }
+  .candidateInfo { display: none; }
+  .logoArea { gap: 1rem; }
+  .header { padding: 1rem 0; }
+  .hero { padding: 6rem 1.5rem; }
+  .heroSubtitle { font-size: 1.1rem; margin-bottom: 2.5rem; }
+  .ctaButton { padding: 1rem 2rem; font-size: 0.75rem; }
+  .carouselItem { flex: 0 0 85vw; }
+  .videoSection { max-width: 100%; }
   .deliverySection { margin-top: 4rem; padding-top: 2rem; }
+  .roadmapContainer { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+  .roadmapItem { flex: 1 1 80px; }
   .flexGrid { flex-direction: column; }
   .flexGrid > div { width: 100%; }
-  .roadmapContainer { flex-direction: row; flex-wrap: wrap; justify-content: center; }
-...
+}
