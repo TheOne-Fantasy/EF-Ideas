@@ -393,15 +393,20 @@ export default function EFPage() {
       </section>
 
       {/* Footer */}
-      <footer style={{ padding: '6rem 2rem', textAlign: 'center', backgroundColor: '#000', color: '#fff' }}>
+      <footer style={{ padding: '8rem 2rem', textAlign: 'center', backgroundColor: '#000', color: '#fff' }}>
         <div className={`${styles.reveal}`}>
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem' }}>Ready to launch the <span className={styles.heroPink}>Pink Wave.</span></h2>
-          <div style={{ marginBottom: '3rem' }}>
-             <img src="/Photo-Profil.jpg" alt="Paul Harrer" style={{ width: '80px', height: '80px', borderRadius: '50%', border: '2px solid #ef5097' }} />
-             <p style={{ marginTop: '1rem', fontWeight: 600 }}>Paul Harrer</p>
-             <p style={{ color: '#666', fontSize: '0.9rem' }}>Social Media Manager Candidate</p>
+          <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 900, marginBottom: '3rem', textTransform: 'uppercase', letterSpacing: '-1px' }}>
+            BEYOND THE FEED.<br />
+            BUILDING THE FUTURE OF THE <span className={styles.heroPink}>PINK WAVE.</span>
+          </h2>
+          <div style={{ marginBottom: '4rem' }}>
+             <img src="/Photo-Profil.jpg" alt="Paul Harrer" style={{ width: '100px', height: '100px', borderRadius: '50%', border: '3px solid #ef5097', marginBottom: '1.5rem' }} />
+             <p style={{ fontSize: '1.2rem', fontWeight: 700, margin: '0 0 0.25rem 0' }}>Paul Harrer</p>
+             <p style={{ color: '#666', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Social Media Strategy & Growth</p>
           </div>
-          <a href="mailto:paulharrer@hotmail.com" className={styles.ctaButton}>Connect</a>
+          <a href="https://paul-harrer.vercel.app/" target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>
+            View Full Portfolio
+          </a>
         </div>
       </footer>
     </main>
